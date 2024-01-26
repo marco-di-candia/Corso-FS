@@ -18,7 +18,7 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-D.css">
 </head>
 
 <body>
@@ -26,11 +26,11 @@
 
     <!-- header -->
 
-    <header class="back-header">
+    <header>
         <nav class="logo">
-            <img class="logo" src="assets/images/logo.png" alt="logo epicode" width="150px">
+            <img class="logo" src="assets/images/logo.png" alt="logo epicode" width="100px">
         </nav>
-        <div>
+        <div class="centare back-header">
             <h1>
                 Corso Web Developer
             </h1>
@@ -38,51 +38,60 @@
                 Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono arricchire il CV, tu pensa ad
                 arricchire le tue competenze
             </p>
+            <span class="centare"> <a class="link-al-footer" href="#footer">PARTIAMO!</a></span>
         </div>
-        <span> <a class="link-al-footer" href="#footer">PARTIAMO!</a></span>
     </header>
 
+
     <!-- main parte articoloi -->
+
     &nbsp;
     <main>
         <section>
-            <article>
-                <div>
-                    <h4>
-                        Tutti ti cercheranno
-                    </h4>
-                    <p>
-                        Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.
-                    </p>
-                </div>
-                &nbsp;
-                <div>
-                    <h4>
-                        Lavora dove vuoi
-                    </h4>
-                    <p>
-                        Lavora da casa, in riva al mare o in montagna.
-                    </p>
+            <article class="position">
+                <div class="inline-img">
                     <img class="img-circle" src="assets/images/notebook.jpg" alt="foto di un notebook">
                 </div>
-                &nbsp;
-                <div>
-                    <h4>
-                        Scegli il tuo ruolo
-                    </h4>
-                    <p>
-                        Potrai scegliere se essere Azienda, Freelance o Startup.
-                    </p>
+
+                <div class="inline-p">
+
+                    <section>
+                        <h4 class="h4-main">
+                            Tutti ti cercheranno
+                        </h4>
+                        <p class="h4-main">
+                            Sono 30.000 in Italia le posizioni di developer scoperte,<br> scegli quella che ti stimola
+                            di
+                            più.
+                        </p>
+                        <h4 class="h4-main">
+                            Lavora dove vuoi
+                        </h4>
+                        <p class="h4-main">
+                            Lavora da casa, in riva al mare o in montagna.
+                        </p>
+                        <h4 class="h4-main">
+                            Scegli il tuo ruolo
+                        </h4>
+                        <p class="h4-main">
+                            Potrai scegliere se essere Azienda, Freelance o Startup.
+                        </p>
+                        <h4 class="h4-main">
+                            Lavoro in libertà
+                        </h4>
+                        <p>
+                            Non serve lavorare in ufficio per essere creatori di prodotti digitali.
+                        </p>
+                    </section>
+
                 </div>
-                <div>
-                    <h4>
-                        Lavoro in libertà
-                    </h4>
-                    <p>
-                        Non serve lavorare in ufficio per essere creatori di prodotti digitali.
-                    </p>
-                </div>
                 &nbsp;
+            </article>
+
+
+            <!-- parte rossa -->
+
+            <article>
                 <div class="parte-rossa-main">
                     <h2 class="white">
                         Epicode garantisce
@@ -93,7 +102,7 @@
                         </em>
                     </p>
                     <p class="white">
-                            Mario Rossi
+                        Mario Rossi
                         <span>
                             CEO, Epicode
                         </span>
@@ -143,23 +152,24 @@
 
     <footer id="footer" class="container-footer">
         <div class="white border-bottom">
-            <h2 class="white">
+            <h2 class="white center">
                 Contattaci
             </h2>
-            <address>
+            <address class="center-a">
 
-                <p class="white small">
-                    <span class="material-symbols-outlined">
+                <p class="white small-a ">
+                    <span class=" small-a material-symbols-outlined">
                         call
-                    </span><a href="https://wa.me/+393240875988?text=Chiedo%20info%20per%20consulenza" target="_blank"></a>
-                        (+39)324-087-5988</a>
+                    </span><a href="https://wa.me/+393240875988?text=Chiedo%20info%20per%20consulenza"
+                        target="_blank"></a>
+                    (+39)324-087-5988</a>
                 </p>
                 <p class="white small">
-                    <span class="material-symbols-outlined">
+                    <span class="  small-a material-symbols-outlined">
                         mail
                     </span><a href="https://www.google.com/gmail/about/" target="_blank"> mariorossi@gmail.com</a>
                 </p>
-                <p class="white small"><span class="material-symbols-outlined">
+                <p class="white small"><span class="  small-a material-symbols-outlined">
                         north_east
                     </span> Via Monte Polacco 2/4- 00184 Rome</p>
 
@@ -167,7 +177,7 @@
         </div>
         <hr class="with">
         <div>
-            <p class="white small-1"> &copy; 2021. Immagini di <a href="https://pixabay.com/"
+            <p class="white small-1 center"> &copy; 2021. Immagini di <a href="https://pixabay.com/"
                     target="_blank">Pixabay</a></p>
         </div>
     </footer>
