@@ -54,11 +54,12 @@ div img {
 /* parte main */
 
 
-/* parte img */
+/* parte img rotonda */
 
 .img-circle {
 
     border-radius: 50%;
+    width: 70%;
 
 }
 
@@ -67,7 +68,7 @@ div img {
 .parte-rossa-main {
     color: white;
     background-color: #e22d0e;
-    padding: 10% 0% 5% 0%;
+    padding: 20px 0px 10px 0px;
     margin-bottom: 50px;
 
 }
@@ -86,7 +87,11 @@ span {
 
 /* parte aside */
 
-s
+.card {
+    margin: 30px;
+    border: #dee1e3 solid 1px;
+    border-radius: 8px;
+}
 
 /* parte iniziale footer */
 .link-al-footer {
@@ -97,4 +102,28 @@ s
     border-radius: 8px 8px 8px 8px;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1.5;
+}
+
+.container-footer {
+
+    background-color: #25a2c3;
+    padding-top: 5px;
+    padding-bottom: 70px;
+}
+
+.border-bottom {
+
+    border-bottom: white;
+}
+
+a {
+    color: #c8e7f0;
+}
+
+.small-1 {
+    font-size: small;
+}
+
+.with {
+    width: 220px;
 }
