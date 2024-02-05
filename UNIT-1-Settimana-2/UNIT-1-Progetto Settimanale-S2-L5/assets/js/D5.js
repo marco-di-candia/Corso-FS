@@ -160,10 +160,10 @@ console.log(justTrims[2]);
 // }
 
 for (let i = 0; i < cars.length; i++) {
-  const primalettera = cars[i].color.charAt(0, "b");
+  const primalettera = cars[i].color.charAt(0); 
   if (primalettera === "b") {
     console.log("fizz");
-  } else {
+  }else{
     console.log("buzz");
   }
 }
