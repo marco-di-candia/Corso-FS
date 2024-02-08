@@ -47,10 +47,10 @@ const evento = () => {
 evento()
 const colora = (numrandom => {
 
-    const tabellone = document.querySelectorAll('.righa');
-    for (let i = 0; i < tabellone.length; i++) {
-        if (parseInt(tabellone[i].innerText) === numrandom) {
-            tabellone[i].classList.add('evidenziato');
+    const evidenziare = document.querySelectorAll('.righa');
+    for (let i = 0; i < evidenziare.length; i++) {
+        if (parseInt(evidenziare[i].innerText) === numrandom) {
+            evidenziare[i].classList.add('evidenziato');
         }
     }
 })
