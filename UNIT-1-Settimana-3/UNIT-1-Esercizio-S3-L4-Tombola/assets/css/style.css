@@ -1,0 +1,62 @@
+body {
+    background-color: #2D3250;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.righa {
+    border: 1px solid black;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px;
+    background-color: #eeeeee35;
+    color: rgba(255, 255, 255, 0.699);
+
+}
+
+
+.spanC {
+    color: rgba(255, 255, 255, 0.699);
+    padding-left: 7px;
+
+}
+
+.evidenziato {
+
+    background-color: red;
+
+}
+
+
+#numeritombola {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.tabella {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #eeeeee35;
+    color: rgba(255, 255, 255, 0.699);
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.699);
+    text-align: center;
+}
+
+.randomN {
+    color: rgba(255, 255, 255, 0.699);
+}
+
+#numerodagenarare {
+    color: rgba(255, 255, 255, 0.699);
+    font-size: large;
+}

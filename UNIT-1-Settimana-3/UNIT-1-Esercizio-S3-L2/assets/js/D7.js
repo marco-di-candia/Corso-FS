@@ -63,14 +63,18 @@
 */
 
 
-// let somma = 0;
 
-    // array.forEach(es4)
 
-    // function es4(numero) {
-    //   somma += numero
-    // }
-    // console.log(somma);
+
+  
+  const es4 = () =>{
+    let somma = 0
+    array.forEach((element)=>{
+      somma +=element
+    })
+    return somma
+  }
+    console.log(es4());
 
 
 
