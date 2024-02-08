@@ -22,6 +22,7 @@ const genero = () => {
 
     }
 }
+
 genero()
 
 
