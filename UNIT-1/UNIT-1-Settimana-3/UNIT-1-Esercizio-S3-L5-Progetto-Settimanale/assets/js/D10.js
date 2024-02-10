@@ -390,14 +390,19 @@ console.log(sumAllTheYears());
 /* ESERCIZIO 17
   Scrivi una funzione chiamata "searchByTitle" che riceve una stringa come parametro e ritorna i film nell'array "movies" fornito che la contengono nel titolo.
 */console.log("ESERCIZIO 17");
-// const searchByTitle = (string="") =>{
-//   let search = movies.Title
-//   if (search === string) {
-//   }
-//   return string
-// }
+const searchByTitle = (string="") =>{
+  const searchFilm = []
+  for (let i = 0; i < movies.length; i++) {
+    const search = movies[i].Title;
+    if  (search === string) {
+      searchFilm.push(movies[i])
+    }
+    
+  }
+  return searchFilm
+}
 
-// console.log(searchByTitle('Avengers: Endgame'));
+console.log(searchByTitle('Avengers: Age of Ultron'));
 
 
 
