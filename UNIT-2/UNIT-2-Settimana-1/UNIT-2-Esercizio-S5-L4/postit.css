@@ -1,0 +1,99 @@
+html,
+body {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenitore {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 40px;
+
+
+}
+
+.task {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    flex-direction: column;
+    box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.4),
+        0px 7px 13px -3px rgba(0, 0, 0, 0.3),
+        0px -3px 0px 0px rgba(0, 0, 0, 0.2) inset;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    text-align: left;
+    margin-top: 0;
+}
+
+.giallo {
+    transform: rotate(349deg);
+    background: rgb(242, 243, 190);
+    background: linear-gradient(180deg, rgba(242, 243, 190, 1) 0%, rgba(95, 96, 85, 1) 100%);
+
+}
+
+.verde {
+    background: rgb(185, 224, 187);
+    background: linear-gradient(180deg, rgba(185, 224, 187, 1) 0%, rgba(69, 82, 69, 1) 100%);
+}
+
+.viola {
+    transform: rotate(17deg);
+    background: rgb(199, 199, 242);
+    background: linear-gradient(180deg, rgba(199, 199, 242, 1) 0%, rgba(142, 142, 168, 1) 100%);
+}
+
+.task:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    .task {
+        border: 2px solid black;
+        width: 200px;
+        height: 200px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        margin: 0px 10px;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1109px) {
+    .task {
+        border: 2px solid black;
+        width: 150px;
+        height: 200px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        margin: 0px 10px;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+}
