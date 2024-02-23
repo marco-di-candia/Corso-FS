@@ -19,11 +19,11 @@ add.addEventListener("click", function (e) {
 
 })
 
-const inserisci = () => {
-    nuovoli = myinput.value;
-    array.push(nuovoli);
-    console.log(array);
-}
+// const inserisci = () => {
+//     nuovoli = myinput.value;
+//     array.push(nuovoli);
+//     console.log(array);
+// }
 
 
 function genero() {
