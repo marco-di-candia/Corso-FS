@@ -14,10 +14,18 @@ header {
     z-index: 1000;
 }
 
+.coloreNuovo-button {
+    background-color: #1a8917;
+}
+
+.coloreNuovo-header {
+    background-color: white;
+    transition: 0.3s;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #ffc017;
     border-bottom: 1px solid black;
 }
 
