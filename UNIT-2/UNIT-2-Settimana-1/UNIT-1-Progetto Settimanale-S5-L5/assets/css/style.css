@@ -447,3 +447,12 @@ li {
         justify-content: flex-start;
     }
 }
+
+
+@media screen and (max-width: 675px) {
+    .grandezza {
+        max-width: auto;
+        height: 50%;
+    }
+}
+
