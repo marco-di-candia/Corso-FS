@@ -1,0 +1,22 @@
+@import "../mixins/mixin";
+@import "colori";
+@import "titoli";
+
+main {
+    @include margini(top, 250px);
+}
+
+#mPadre {
+    display: flex;
+    width: 100%;
+}
+
+#mPadre div {
+    width: 100%;
+    @include margini(right, 5px);
+    @include margini(left, 5px);
+}
+#mPadre div img {
+    width: 100%;
+    border-radius: $arotonda;
+}

@@ -1,0 +1,8 @@
+@import 'partials/nav';
+@import 'mixins/mixin';
+@import 'partials/sPadre';
+@import 'partials/mPadre';
+
+html,body{
+    @include reset;
+}

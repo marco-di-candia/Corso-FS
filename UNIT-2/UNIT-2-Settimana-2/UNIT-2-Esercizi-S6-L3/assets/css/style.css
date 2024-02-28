@@ -1,0 +1,145 @@
+nav {
+  background-color: #640fc5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+nav .nero {
+  color: #28064f;
+  font-size: 30px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 4.5em;
+  color: #28064f;
+}
+
+#sPadre {
+  background-color: #640fc5;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#sPadre div {
+  width: 50%;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  color: #cda8f8;
+}
+
+#primo {
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+#secondo {
+  color: white;
+  background-color: orange;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+#terzo {
+  color: white;
+  background-color: green;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+.sposta {
+  position: relative;
+  border-radius: 15px;
+  animation-name: example;
+  animation-duration: 1s;
+  transition: 1.3s;
+  animation-iteration-count: backwards;
+}
+
+@keyframes example {
+  from {
+    right: 0px;
+    top: 300px;
+  }
+}
+#sPadre img {
+  border-radius: 15px;
+  width: 80%;
+  border: #640fc5 4px solid;
+  position: absolute;
+  top: 127px;
+  right: 0;
+}
+
+.daDestra {
+  position: relative;
+  border-radius: 15px;
+  animation-name: example-1;
+  animation-duration: 1s;
+  transition: 0.3s;
+  animation-iteration-count: backwards;
+}
+
+@keyframes example-1 {
+  from {
+    right: 200px;
+    top: 0px;
+  }
+}
+main {
+  margin-top: 250px;
+}
+
+#mPadre {
+  display: flex;
+  width: 100%;
+}
+
+#mPadre div {
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#mPadre div img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */

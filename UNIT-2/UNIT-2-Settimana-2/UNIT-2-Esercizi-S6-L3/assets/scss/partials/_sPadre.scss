@@ -1,0 +1,93 @@
+@import "../mixins/mixin";
+@import "colori";
+@import "titoli";
+
+h1 {
+    font-size: $font-size;
+    color: $text-blue;
+}
+#sPadre {
+    background-color: $bgViolet;
+    display: flex;
+    @include pading(left, 100px);
+    @include pading(right, 100px);
+    @include pading(top, 100px);
+    @include pading(bottom, 100px);
+}
+#sPadre div {
+    width: 50%;
+}
+p {
+    color: $textWithe;
+    font-size: 1.5em;
+    color: $text-lightV;
+}
+#primo {
+    color: $textWithe;
+    background-color: $bg-blue;
+    border-radius: $arotonda;
+    @include pading(left, 20px);
+    @include pading(right, 20px);
+    @include pading(top, 15px);
+    @include pading(bottom, 15px);
+    font-size: 13px;
+}
+#secondo {
+    color: $textWithe;
+    background-color: $bg-arancione;
+    border-radius: $arotonda;
+    @include pading(left, 20px);
+    @include pading(right, 20px);
+    @include pading(top, 15px);
+    @include pading(bottom, 15px);
+    font-size: 13px;
+}
+#terzo {
+    color: $textWithe;
+    background-color: $bg-verde;
+    border-radius: $arotonda;
+    @include pading(left, 20px);
+    @include pading(right, 20px);
+    @include pading(top, 15px);
+    @include pading(bottom, 15px);
+    font-size: 13px;
+}
+
+.sposta {
+    position: relative;
+    border-radius: $arotonda;
+    animation-name: example;
+    animation-duration: 1s;
+    transition: 1.3s;
+    animation-iteration-count: backwards;
+}
+@keyframes example {
+    from {
+        right: 0px;
+        top: 300px;
+    }
+}
+#sPadre img {
+    border-radius: $arotonda;
+    width: 80%;
+    border: $bgViolet 4px solid;
+    position: absolute;
+    top: 127px;
+    right: 0;
+}
+
+.daDestra {
+    position: relative;
+    border-radius: $arotonda;
+    animation-name: example-1;
+    animation-duration: 1s;
+    transition: 0.3s;
+    animation-iteration-count: backwards;
+}
+
+@keyframes example-1 {
+    from {
+        right: 200px;
+        top: 0px;
+    }
+}
