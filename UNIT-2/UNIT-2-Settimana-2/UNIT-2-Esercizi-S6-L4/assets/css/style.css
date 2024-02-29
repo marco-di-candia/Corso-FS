@@ -1,0 +1,86 @@
+.p-2 {
+    padding: 4px !important;
+}
+
+.translate-middle {
+    transform: translate(-190%, 50%) !important;
+}
+
+.bg-img {}
+
+html,
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.btn-verde {
+    background-color: #1acb98;
+}
+
+.bg-my {
+    background-color: #7550fe;
+}
+
+.bg-i {
+    background-color: #ffeeda;
+
+}
+
+.bi-camera-video-fill::before {
+    content: "\f21c";
+    color: #f9b86e;
+}
+
+.bi-person-lines-fill::before {
+    color: #f9b86e;
+}
+
+.bi-clock-fill::before {
+    color: #f9b86e;
+}
+
+.bi-bar-chart-line-fill::before {
+    color: #916ef9c5;
+}
+
+.border-dark {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
+    border-color: white !important;
+}
+
+.bi::before,
+[class*=" bi-"]::before,
+[class^=bi-]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-star-half::before {
+    color: #f9b86e;
+}
+
+.bi-star-fill::before {
+    color: #f9b86e;
+}
+
+.bi-star::before {
+    color: #f9b86e;
+}
+
+a {
+    text-decoration: none;
+}
