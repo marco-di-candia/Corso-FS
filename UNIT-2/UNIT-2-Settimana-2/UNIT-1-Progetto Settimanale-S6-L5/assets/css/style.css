@@ -1,0 +1,35 @@
+html,
+body,
+nav {
+    background-color: #141414;
+}
+
+a {
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.bg-b {
+    background-color: #141414;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.dropdown-menu{
+    top: 60px;
+    right: 10px;
+}
+select{
+    width: auto;
+    height: 30px;
+}
