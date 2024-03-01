@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg  position-sticky">
         <div class="container-fluid px-5">
             <a class="navbar-brand " href="intex.html"><img src="assets/assets/netflix_logo.png"
-                    class="img-fluid opacity-75" width="100px" alt=""></a>
+                    class="img-fluid opacity-75" width="140px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,25 +43,25 @@
                         <i class="bi bi-search"></i>
                     </li>
                     <li class="nav-item px-3">
-                        <img src="assets/assets/kids_icon.png" class="img-fluid" width="25px" alt="">
+                        <img src="assets/assets/kids_icon.png" class="img-fluid" width="35px" alt="">
                     </li>
                     <li class="nav-item ps-3 pe-4">
                         <i class="bi bi-bell-fill"></i>
                     </li>
                     <!-- Collapse -->
 
-                    <div class="dropdown bg-b mt-2 pointer position-relative z-3">
+                    <div class="dropdown bg-b mt-2 pointer position-relative">
                         <div class="dropdown-toggle text-white" data-bs-toggle="collapse"
                             data-bs-target="#collapseWidthExample" aria-expanded="false"
                             aria-controls="collapseWidthExample">
-                            <img src="assets/assets/avatar.png" width="30px" alt="">
+                            <img src="assets/assets/avatar.png" width="40px" alt="">
 
                         </div>
                     </div>
-                    <div class="z-3 dropdown-menu position-absolute bg-b dropdown-menu-start po border-0 shadow-lg text-white "
+                    <div class="dropdown-menu position-absolute bg-b dropdown-menu-start po border-0 shadow-lg text-white "
                         aria-label="User Account" id="collapseWidthExample">
                         <div class="d-flex flex-row px-3 pb-3">
-                            <img src="assets/assets/avatar.png" width="50px" class="img-fluid pe-1 z" alt="">
+                            <img src="assets/assets/avatar.png" width="50px" class="img-fluid pe-1" alt="">
                             <p c>Epicoder #1</p>
                         </div>
                         <li class="nav-item">
@@ -69,14 +69,14 @@
                                 Profilies<a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black ps-4 text-white" href="intex-profile.html">Account</a>
+                            <a class="nav-link text-black ps-4 text-white" href="intex-setting.html">Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black ps-4 text-white" href="intex-setting.html">Setting</a>
+                            <a class="nav-link text-black ps-4 text-white" href="#">Setting</a>
                         </li>
                         <div class="dropdown-divider"></div>
                         <li class="nav-item ">
-                            <a class="nav-link text-black ps-4 text-white" href="#">Signout Netflix</a>
+                            <a class="nav-link text-black ps-4 text-white pb-2" href="#">Signout Netflix</a>
                         </li>
                     </div>
 
@@ -85,18 +85,21 @@
             </div>
         </div>
     </nav>
+    <div>
+        <img src="assets/assets/neflix-header.png" class="img-fluid d-block ms-auto " alt="">
+    </div>
 
     <!-- parte header -->
 
     <header>
-        <div class="container z-n1">
+        <div class="container pt-4">
             <div class="row ">
                 <div class="col-12 d-flex text-white justify-content-between align-items-center">
                     <div class="d-flex">
 
-                        <h2 class="px-4 font">Tv Shows</h2>
+                        <h2 class="px-4 font ">Tv Shows</h2>
 
-                        <select name="" class="bg-b text-white px-1 p-0 border-secondary my-2" id="">
+                        <select name="" class="bg-b text-white px-1 p-0 border-secondary my-2 select-intex" id="">
                             <option value="">Genres</option>
                         </select>
                     </div>
@@ -114,9 +117,339 @@
     </header>
 
     <!--main  -->
-
     <main>
 
+        <!-- carusel -->
+        <div class="container-fluid mt-4 text-white pt-1">
+            <h4>Trending Now</h4>
+            <div class="row d-flex flex-column">
+                <div class="col">
+                    <div id="sposta" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="list">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="assets/assets/media/media0.webp" class="img-fluid rounded-3 "
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media1.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media2.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media3.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media4.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media5.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="assets/assets/media/media6.jpg" class="img-fluid rounded-3" />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media7.webp" class="img-fluid rounded-3" />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media8.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media9.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media10.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media11.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#sposta"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#sposta"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fine carusel -->
+        <!-- carusel -->
+        <div class="container-fluid mt-4 text-white pt-1">
+            <h4>Watch it Again</h4>
+            <div class="row d-flex flex-column">
+                <div class="col">
+                    <div id="sposta1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="list">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="assets/assets/media/media12.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media13.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media14.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media15.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media16.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media17.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="assets/assets/media/media18.jpg" class="img-fluid rounded-3" />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media19.webp" class="img-fluid rounded-3" />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media20.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media21.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media22.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media23.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#sposta1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#sposta1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fine carusel -->
+        <!-- carusel -->
+        <div class="container-fluid mt-4 text-white pt-1">
+            <h4>New Releases</h4>
+            <div class="row d-flex flex-column">
+                <div class="col">
+                    <div id="sposta2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="list">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="assets/assets/media/media24.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media25.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media26.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media27.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media28.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media29.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="assets/assets/media/media30.jpg" class="img-fluid rounded-3" />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media31.webp" class="img-fluid rounded-3" />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media32.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media4.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media1.jpg" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/assets/media/media5.webp" class="img-fluid rounded-3"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#sposta2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#sposta2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fine carusel -->
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+
+        <div class="container pt-5 px-5">
+            <div class="row">
+                <div class="col d-flex ">
+                    <div>
+                        <i class="bi bi-facebook text-white-50 px-1 fs-4"></i>
+                    </div>
+                    <div>
+                        <i class="bi bi-twitter-x text-white-50 px-1 fs-4"></i>
+                    </div>
+                    <div>
+                        <i class="bi bi-youtube text-white-50 px-1 fs-4"></i>
+                    </div>
+                    <div>
+                        <i class="bi bi-paypal text-white-50 px-1 fs-4"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container  px-5 pt-4">
+            <div class="row text-white-50">
+                <div class="col-12 col-md-3">
+                    <p>Audio and Subtitle</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Audio Description</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Help Center</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Gift Card</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container  px-5 pt-2">
+            <div class="row text-white-50">
+                <div class="col-12 col-md-3">
+                    <p>Media Center</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Investor Relations</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Jobs</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Terms of Use</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container  px-5 pt-2">
+            <div class="row text-white-50">
+                <div class="col-12 col-md-3">
+                    <p>Privacy</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Legal Notices</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Cookie Preferences</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p>Corporate information</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container  px-5 pt-2">
+            <div class="row text-white-50">
+                <div class="col-12">
+                    <p>Contact Us</p>
+                </div>
+            </div>
+        </div>
+        <div class="container  px-5 pt-2">
+            <div class="row text-white-50">
+                <div class="col-12 pt-3 pb-2">
+                    <button type="button" class="btn btn-outline-secondary rounded-1">Service Code</button>
+                </div>
+            </div>
+        </div>
+        <div class="container  px-5 pt-2">
+            <div class="row text-white-50">
+                <div class="col-12 pt-3 pb-2">
+                    <p>&copy; Netflix by marco-di-candia Epicode-2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -125,9 +458,9 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

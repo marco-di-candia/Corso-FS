@@ -6,6 +6,7 @@ nav {
 
 a {
     opacity: 0.5;
+    text-decoration: none;
 }
 
 a:hover {
@@ -22,14 +23,86 @@ li {
     background-color: #141414;
 }
 
-.pointer{
+.pointer {
     cursor: pointer;
 }
-.dropdown-menu{
-    top: 60px;
+
+.dropdown-menu {
+    top: 89px;
     right: 10px;
 }
-select{
+
+.select-intex {
     width: auto;
     height: 30px;
+}
+
+.carousel-inner {
+    display: flex;
+    padding: 1em;
+}
+
+.carousel-item img {
+    display: block;
+    margin-right: 0;
+
+}
+
+@media (max-width: 768px) {
+    .carousel-item .row {
+        flex-direction: column;
+    }
+}
+
+p {
+    font-size: small;
+}
+
+/* .padding{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 100px;
+} */
+
+.bg-profile {
+    background-color: #666666
+}
+
+.space {
+    letter-spacing: 3px;
+}
+
+.bg-profile1 {
+    background-color: #333333
+}
+
+.form-check-input:checked {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.altezza {
+    height: 100px;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-w {
+    background-color: #f3f3f3 !important;
+}
+
+@media (max-width: 768px) {
+    .smal-font{
+        font-size: x-small;
+    }
+    .smal-font-hd{
+        font-size: small !important;
+    }
+    .smal-font-h{
+        font-size: medium !important;
+    }
 }
