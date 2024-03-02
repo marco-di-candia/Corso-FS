@@ -96,13 +96,36 @@ p {
 }
 
 @media (max-width: 768px) {
-    .smal-font{
+    .smal-font {
         font-size: x-small;
     }
-    .smal-font-hd{
+
+    .smal-font-hd {
         font-size: small !important;
     }
-    .smal-font-h{
+
+    .smal-font-h {
         font-size: medium !important;
     }
+}
+
+.box {
+    /* width: 100px;
+    height: 100px; */
+}
+
+.hover:hover {
+    background-color: #333333
+}
+
+.altezza-first {
+    width: 200vw;
+}
+
+span {
+    opacity: 0.5;
+}
+
+span:hover {
+    opacity: 1;
 }

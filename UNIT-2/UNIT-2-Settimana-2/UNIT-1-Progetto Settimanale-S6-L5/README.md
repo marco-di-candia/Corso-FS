@@ -1,0 +1,2 @@
+INIZIAE DA INDEX-first.HTML
+Dove scegli con quale utente entrare su Netflix e ho implementato quando facciamo click sul utente cambia anche nella pagina seguente l’avatar nella navbar e nella collapse bar ma non sono riuscito a cambiare l’avatar anche nella pagina setting e profile perché ho usato un metodo che non credo che si possa fare in quelle pagine
