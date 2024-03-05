@@ -1,6 +1,8 @@
 let input = document.getElementById("input");
 let add = document.getElementById("add");
 let show = document.getElementById("show");
+let cancel = document.getElementById("delete");
+
 array = [];
 class Person {
     constructor(_name) {
@@ -13,20 +15,34 @@ add.addEventListener("click", e => {
     e.preventDefault();
 
     let person = new Person(input.value);
-    localStorage.setItem("persona", JSON.stringify(person));
+    array.push(person);
+    localStorage.setItem("persona", JSON.stringify(array));
 
     stampa(person);
     input.value = ""
 
 });
+cancel.addEventListener("click", e => {
+    e.preventDefault();
+
+    localStorage.removeItem("persona");
+    show.innerHTML = "";
+});
 
 
-const stampa = (oggeto) => {
-    let p = document.createElement("ul");
-    p.innerHTML = `<li>${oggeto.name}</li>`;
-    show.appendChild(p);
+
+const stampa = (oggetto) => {
+    show.innerHTML += `<ul><li>${oggetto.name}</li></ul>`;
 
 }
 
-localStorage.removeItem("p");
-localStorage.removeItem("c");
+window.onload = () => {
+    const personaString = localStorage.getItem("persona");
+    if (personaString) {
+        array = JSON.parse(personaString);
+        array.forEach(elemnt => {
+            stampa(elemnt);
+
+        });
+    }
+}
