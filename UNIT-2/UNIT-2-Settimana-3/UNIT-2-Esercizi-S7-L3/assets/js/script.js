@@ -3,22 +3,25 @@ const list = document.getElementById("list");
 const shopCard = document.getElementById("shopCard");
 const shop = []
 
-fetch("https://striveschool-api.herokuapp.com/books")
-    .then(response => {
+async function fetchData() {
+    try {
+        const response = await fetch("https://striveschool-api.herokuapp.com/books");
+
         if (!response.ok) {
             throw new Error("Errore nella richiesta API");
         }
-        return response.json();
-    })
-    .then(data => {
+
+        const data = await response.json();
         // Popolare l'array globale con i dati ottenuti dalla richiesta API
         array.push(...data);
         // Chiamare la funzione stampa solo dopo che i dati sono stati recuperati
         stampa();
-    })
-    .catch(error => {
+    } catch (error) {
         console.error("Si è verificato un errore:", error);
-    });
+    }
+}
+
+fetchData();
 
 const stampa = () => {
     // Per ogni libro nell'array
