@@ -1,0 +1,7 @@
+.bg-nav{
+    background-color: #131921;
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
