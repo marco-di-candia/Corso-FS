@@ -1,0 +1,13 @@
+<!-- primo -->
+<div class="pt-2">
+    <a href="">{{selectedPost?.title}}</a>
+</div>
+<div class="pt-3">
+    <button class="m-1 rounded-1 px-3" *ngFor="let tag of selectedPost?.tags">{{tag}}</button>
+</div>
+<div class="pt-3 d-flex">
+    <span class="material-symbols-outlined">
+        thumb_up
+    </span>
+    <p class="ps-2"> {{selectedPost?.reactions}}</p>
+</div>

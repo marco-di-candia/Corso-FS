@@ -1,0 +1,17 @@
+<div class="pt-5 d-flex ">
+    <h3 class=" pe-3" *ngFor="let tag of selectedPost?.tags">
+        {{tag}}
+    </h3>
+</div>
+<div>
+    <h2>{{selectedPost?.title}}</h2>
+</div>
+<div>
+    <p>Reactions: {{selectedPost?.reactions}}</p>
+</div>
+<div>
+    <p>{{selectedPost?.body}}</p>
+</div>
+<div>
+    <a href="">Leggi di piu </a>
+</div>
