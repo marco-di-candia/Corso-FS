@@ -13,5 +13,5 @@
     <p>{{selectedPost?.body}}</p>
 </div>
 <div>
-    <a href="">Leggi di piu </a>
+    <a [routerLink]="['/post',selectedPost?.id]">Leggi di piu</a>
 </div>

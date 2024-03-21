@@ -1,6 +1,5 @@
-<!-- primo -->
 <div class="pt-2">
-    <a href="">{{selectedPost?.title}}</a>
+    <a [routerLink]="['/post',selectedPost?.id]"> <a href="">{{selectedPost?.title}}</a></a>
 </div>
 <div class="pt-3">
     <button class="m-1 rounded-1 px-3" *ngFor="let tag of selectedPost?.tags">{{tag}}</button>

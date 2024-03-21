@@ -1,42 +1,39 @@
 <div class="container pt-5">
-    <div class="row bg-body-secondary border border-black rounded-3 p-4">
+    <div class="row bg-body-secondary p-4 card">
         <div class="col-12  py-5">
             <app-inevidenza></app-inevidenza>
-            <a href="#">Leggi di piu</a>
         </div>
     </div>
     <div class="row pt-5 justify-content-between">
         <h1 class="pb-5">Parte consigliata</h1>
-        <div class="col-3 bg-body-secondary border border-black rounded-3 p-4">
+        <div class="col-3 bg-body-secondary p-4 card">
             <h2 class="text-nowrap">Potrebe piacerti</h2>
             <app-consigliati></app-consigliati>
         </div>
 
-        <div class="col-3  bg-body-secondary border border-black rounded-3 p-4">
+        <div class="col-3  bg-body-secondary p-4 card">
             <h2 class="text-nowrap">Potrebe piacerti</h2>
             <app-consigliati></app-consigliati>
         </div>
 
-        <div class="col-3  bg-body-secondary border border-black rounded-3 p-4">
+        <div class="col-3  bg-body-secondary p-4 card">
             <h2 class="text-nowrap">Potrebe piacerti</h2>
             <app-consigliati></app-consigliati>
         </div>
 
         <div class="col-12 pt-5">
             <div>
-                <a class="pe-2" href="">Active</a>
-                <a href="">Inactive</a>
-
+                <a class="pe-2" [routerLink]="['/activePosts']">Active post</a>
+                <a [routerLink]="['inactivePosts']">Inactive post</a>
             </div>
-
         </div>
     </div>
 
     <div class="row pt-3 justify-content-between pb-5">
-        <div class="col-5 bg-body-secondary border border-black rounded-3 px-4 py-3">
+        <div class="col-5 bg-body-secondary px-4 py-3 card">
             <app-correlati></app-correlati>
         </div>
-        <div class="col-5 bg-body-secondary border border-black rounded-3 px-4 py-3">
+        <div class="col-5 bg-body-secondary px-4 py-3 card">
             <app-correlati></app-correlati>
         </div>
     </div>

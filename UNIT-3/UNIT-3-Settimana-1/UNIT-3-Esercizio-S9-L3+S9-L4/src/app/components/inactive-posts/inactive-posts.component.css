@@ -1,0 +1,14 @@
+.altezza {
+    height: 400px;
+  }
+  .altezzaBody {
+    max-height: 150px; /* Altezza massima del contenitore */
+    overflow-y: auto; /* Abilita la barra di scorrimento verticale se il contenuto supera l'altezza massima */
+  }
+  
+  .card {
+    border-radius: 21px;
+    background: linear-gradient(145deg, #31363fb6, #f0f0f0);
+    box-shadow: 17px 17px 34px #c7c7c7,
+      -17px -17px 34px #f9f9f9;
+  }

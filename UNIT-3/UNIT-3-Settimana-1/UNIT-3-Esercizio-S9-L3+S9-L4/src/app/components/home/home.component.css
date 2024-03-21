@@ -1,0 +1,6 @@
+.card {
+    border-radius: 25px;
+    background: linear-gradient(145deg, #31363fb6, #f0f0f0);
+    box-shadow: 17px 17px 34px #c7c7c7,
+      -17px -17px 34px #f9f9f9;
+  }

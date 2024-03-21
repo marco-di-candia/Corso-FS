@@ -1,0 +1,31 @@
+<div class="container d-flex justify-content-center pt-4">
+    <div class="row">
+        <div class="col">
+            <h1>Post non attivi</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <!-- Rimuove i margini e i padding dalle colonne -->
+        <ng-container *ngFor="let post of posts">
+            <div class="col-4" *ngIf="!post.active">
+                <div class="my-5 bg-body-secondary p-4 altezza card">
+                    <h4><b>{{post.tags}}</b></h4>
+                    <h3 class="pt-3">{{post.title}}</h3>
+                    <p class="altezzaBody pt-3">{{post.body}}</p>
+                    <p class="pt-3 d-flex">
+                        <span class="material-symbols-outlined mx-2">thumb_up</span>
+                        {{post.reactions}}
+                    </p>
+                    <div>
+                        <a class="nav-link text-white" [routerLink]="['/post',post.id]"
+                            routerLinkActive="active"><button type="button" class="btn btn-primary">Dettagli</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>
