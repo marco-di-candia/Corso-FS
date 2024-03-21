@@ -1,4 +1,4 @@
-<div class="pt-5 d-flex ">
+<div class="pt-5 d-flex altezza">
     <h3 class=" pe-3" *ngFor="let tag of selectedPost?.tags">
         {{tag}}
     </h3>
@@ -12,6 +12,6 @@
 <div>
     <p>{{selectedPost?.body}}</p>
 </div>
-<div>
+<div class="pb-4">
     <a [routerLink]="['/post',selectedPost?.id]">Leggi di piu</a>
 </div>

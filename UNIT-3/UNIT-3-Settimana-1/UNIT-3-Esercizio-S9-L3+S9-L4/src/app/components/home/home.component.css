@@ -4,3 +4,7 @@
     box-shadow: 17px 17px 34px #c7c7c7,
       -17px -17px 34px #f9f9f9;
   }
+
+  .altezza {
+    height: 270px;
+  }
