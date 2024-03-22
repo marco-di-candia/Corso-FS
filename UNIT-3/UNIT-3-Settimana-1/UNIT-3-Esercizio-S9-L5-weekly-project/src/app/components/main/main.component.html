@@ -1,0 +1,51 @@
+<div class="contenitore">
+    <img class="img-fluid img-coustom" src="https://www.pearl-motors.com/image/cache/catalog/home-pagee/dsc02945.JPG" alt="">
+</div>
+
+<div class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-4 d-flex justify-content-evenly">
+            <img src="https://upload.wikimedia.org/wikipedia/it/0/02/Logo_della_Lamborghini.svg" alt=""
+                class="img-fluid w-50">
+        </div>
+        <div class="col-4 d-flex justify-content-evenly">
+            <img src="https://upload.wikimedia.org/wikipedia/it/5/5b/Logo_della_Aston_Martin.svg" alt=""
+                class="img-fluid w-50">
+        </div>
+        <div class="col-4 d-flex justify-content-evenly">
+            <img src="https://upload.wikimedia.org/wikipedia/it/5/59/Logo_della_Scuderia_Ferrari_%28vecchio%29.svg"
+                alt="" class="img-fluid w-50">
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center py-5 ">
+    <h1>In Evidenza</h1>
+</div>
+<div class="container pb-5">
+    <div class="row justify-content-between">
+        <div class="col-4" *ngFor="let cars of selectedCars">
+            <div class="card">
+                <img src="{{cars.modelImage}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                        <h5 class="card-title px-2">{{cars.brand}}</h5>
+                        <p class="card-text"><b>{{cars.model}}</b></p>
+                    </div>
+                    <h5>Specifiche</h5>
+                    <p class="m-0">Anno: {{cars.year}}</p>
+                    <p class="m-0">Prezzo: €{{cars.price}}</p>
+                    <hr>
+                    <div *ngIf="cars.available" [ngStyle]="{ 'color': 'green'}">
+                        <h1>Disponibile</h1>
+                    </div>
+                    <div *ngIf="!cars.available" [ngStyle]="{ 'color': 'red'}">
+                        <h1>Sold Out</h1>
+                    </div>
+                    <!-- <a class="nav-link px-3" [routerLink]="'/Lamborghini'" routerLinkActive="active">Lamborghini</a> -->
+                    <a routerLink="/{{cars.brand}}">Tutte le nostre {{ cars.brand }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+[
+    {
+        "brand": "Lamborghini",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/0/02/Logo_della_Lamborghini.svg",
+        "model": "Urus",
+        "modelImage": "https://hips.hearstapps.com/hmg-prod/images/2021-lamborghini-urus-green-1592400029.jpg?crop=1.00xw:0.846xh;0.00160xw,0.0457xh&resize=1200:*",
+        "year": 2022,
+        "price": 229.495,
+        "available": false
+    },
+    {
+        "brand": "Lamborghini",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/0/02/Logo_della_Lamborghini.svg",
+        "model": "Aventador",
+        "modelImage": "https://i2.res.24o.it/images2010/Editrice/ILSOLE24ORE/ILSOLE24ORE/Online/Immagini/ArticleGallery/Motori/2023/02/Ritagli/06%20lambo%20aventador-k3zD--1020x533@IlSole24Ore-Web.jpg?r=1074x562",
+        "year": 2021,
+        "price": 129.495,
+        "available": true
+    },
+    {
+        "brand": "AstonMartin",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/5/5b/Logo_della_Aston_Martin.svg",
+        "model": "Vantage GT4",
+        "modelImage": "https://cdn.motor1.com/images/mgl/Akg9l6/s1/aston-martin-vantage-gt4.webp",
+        "year": 2023,
+        "price": 329.495,
+        "available": false
+    },
+    {
+        "brand": "AstonMartin",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/5/5b/Logo_della_Aston_Martin.svg",
+        "model": "DBX",
+        "modelImage": "https://cdn-img.automoto.it/images/33352892/2050x/aston-martin-dbx707-amr23-edition-01-jpg.jpeg",
+        "year": 2023,
+        "price": 301.264,
+        "available": true
+    },
+    {
+        "brand": "Ferrari",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/5/59/Logo_della_Scuderia_Ferrari_%28vecchio%29.svg",
+        "model": "Purosangue",
+        "modelImage": "https://cdn-img.automoto.it/images/30756687/2050x/01-front34-1a-hr-a4-jpg.jpeg",
+        "year": 2022,
+        "price": 390.122,
+        "available": true
+    },
+    {
+        "brand": "Ferrari",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/5/59/Logo_della_Scuderia_Ferrari_%28vecchio%29.svg",
+        "model": "sf90",
+        "modelImage": "https://cdn.drivek.com/configurator-imgs/cars/it/Original/FERRARI/SF90-XX-STRADALE/43060_COUPE-2-DOORS/ferrari-sf90xx-coupe-front-view.jpg",
+        "year": 2023,
+        "price": 770.111,
+        "available": false
+    }
+]
