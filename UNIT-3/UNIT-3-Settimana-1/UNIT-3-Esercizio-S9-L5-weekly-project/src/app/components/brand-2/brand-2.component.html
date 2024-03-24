@@ -10,30 +10,33 @@
     </div>
 </div>
 
-<div class="container-fluid d-flex justify-content-center align-items-center py-5">
-    <div class="row">
-        <ng-container *ngFor="let cars of carsJson">
-            <div class="col-6 px-5" *ngIf="cars.brand === 'AstonMartin'">
+<div class="container pb-5">
+    <div class="row ">
+        <div class="col-12 col-xl-6 col-xxl-4 py-3 " *ngFor="let car of carsJson">
+            <div *ngIf="car.brand === 'AstonMartin'" class="d-flex justify-content-center">
                 <div class="card">
-                    <img src="{{cars.modelImage}}" class="card-img-top" alt="...">
+                    <img src="{{car.modelImage}}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="d-flex justify-content-center">
-                            <h5 class="card-title px-2">{{cars.brand}}</h5>
-                            <p class="card-text"><b>{{cars.model}}</b></p>
+                            <h5 class="card-title px-2">{{car.brand}}</h5>
+                            <p class="card-text"><b>{{car.model}}</b></p>
                         </div>
                         <h5>Specifiche</h5>
-                        <p class="m-0">Anno: {{cars.year}}</p>
-                        <p class="m-0">Prezzo: €{{cars.price}}</p>
+                        <p class="m-0">Anno: {{car.year}}</p>
+                        <p class="m-0">Prezzo: €{{car.price}}</p>
                         <hr>
-                        <div *ngIf="cars.available" [ngStyle]="{ 'color': 'green'}">
+                        <div *ngIf="car.available" [ngStyle]="{ 'color': 'green'}">
                             <h1>Disponibile</h1>
                         </div>
-                        <div *ngIf="!cars.available" [ngStyle]="{ 'color': 'red'}">
+                        <div *ngIf="!car.available" [ngStyle]="{ 'color': 'red'}">
                             <h1>Sold Out</h1>
+                        </div>
+                        <div class="justify-content-end d-flex">
+                            <a [routerLink]="['/detail',car.model]"><button type="button" class="btn btn-primary px-5 py-1">Dettagli</button></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </ng-container>
+        </div>
     </div>
 </div>

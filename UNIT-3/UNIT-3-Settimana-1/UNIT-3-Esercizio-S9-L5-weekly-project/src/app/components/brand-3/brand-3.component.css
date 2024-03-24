@@ -10,6 +10,6 @@
 
   .card-img-top {
     width: 400px;
-    height: 200px; /* Imposta l'altezza desiderata */
-    object-fit: cover; /* Ridimensiona l'immagine per coprire l'intera area dell'elemento */
+    height: 200px; 
+    object-fit: cover;
   }

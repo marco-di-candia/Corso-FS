@@ -6,7 +6,18 @@
         "modelImage": "https://hips.hearstapps.com/hmg-prod/images/2021-lamborghini-urus-green-1592400029.jpg?crop=1.00xw:0.846xh;0.00160xw,0.0457xh&resize=1200:*",
         "year": 2022,
         "price": 229.495,
-        "available": false
+        "available": false,
+        "body": "La Lamborghini Urus ospita sotto al cofano un motore V8 biturbo da 4,0 litri, capace di 650 CV e 850 Nm di coppia già a 2250 giri/min in grado di garantire uno scatto da 0 a 100 km/h in 3,6 secondi e una velocità massima di 305 km/h."
+    },
+    {
+        "brand": "Lamborghini",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/0/02/Logo_della_Lamborghini.svg",
+        "model": "Huracan",
+        "modelImage": "https://m.media-amazon.com/images/I/81VV+btCRvL._AC_SL1500_.jpg",
+        "year": 2022,
+        "price": 269.495,
+        "available": true,
+        "body": "La Lamborghini Huracàn è lunga 446 cm, larga 192 cm e alta 117 cm, le dimensioni sono dunque decisamente più ridotte rispetto alla Aventador. Il peso dichiarato è leggermente inferiore: 1422 kg per la versione standard, 1389 kg per quella a due ruote motrici."
     },
     {
         "brand": "Lamborghini",
@@ -15,7 +26,8 @@
         "modelImage": "https://i2.res.24o.it/images2010/Editrice/ILSOLE24ORE/ILSOLE24ORE/Online/Immagini/ArticleGallery/Motori/2023/02/Ritagli/06%20lambo%20aventador-k3zD--1020x533@IlSole24Ore-Web.jpg?r=1074x562",
         "year": 2021,
         "price": 129.495,
-        "available": true
+        "available": true,
+        "body": "L'indomabile motore 12 cilindri di Aventador SVJ si distingue per l'eccellenza del suo design e per l'avanzata tecnologia dei materiali. Con i suoi 770 CV di potenza a 8.500 giri/min e l'accelerazione da 0 a 100 km/h in 2,8 secondi Aventador SVJ regala emozioni di guida uniche e mai provate prima."
     },
     {
         "brand": "AstonMartin",
@@ -24,7 +36,18 @@
         "modelImage": "https://cdn.motor1.com/images/mgl/Akg9l6/s1/aston-martin-vantage-gt4.webp",
         "year": 2023,
         "price": 329.495,
-        "available": false
+        "available": false,
+        "body": "La nuova Aston Martin Vantage GT4 rappresenta l'apice dell'ingegneria e del design nel mondo delle auto da competizione, incarnando un perfetto equilibrio tra prestazioni di livello superiore e tecnologia all'avanguardia.L’ultimo bolide da corsa della casa automobilistica britannica si posiziona come un pilastro fondamentale nella line-up GT di Aston Martin, enfatizzando il suo impegno incessante nel motorsport, dalla Formula 1 ai circuiti di gara per appassionati e team partner.La nuova Vantage GT4 trae vantaggio dalle significative evoluzioni tecniche e prestazionali introdotte nella versione stradale della Vantage, adottando miglioramenti al telaio, all'aerodinamica, alla trasmissione e all'efficienza per rafforzare la sua competitività.Con circa l'80% dell'architettura strutturale e meccanica in comune con la nuova Vantage stradale, la versione GT4 rimane fedele alle sue origini, pur rispettando le rigide normative del campionato GT4.Il cuore pulsante di questo bolide è un motore V8 biturbo da 4 litri, abbinato a una trasmissione che, grazie a software personalizzati sviluppati da AMR e ZF/AMR Motorsport, ottimizza i cambi di marcia e il controllo di trazione specifico per il motorsport."
+    },
+    {
+        "brand": "AstonMartin",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/5/5b/Logo_della_Aston_Martin.svg",
+        "model": "Victor",
+        "modelImage": "https://scontent-fco2-1.xx.fbcdn.net/v/t1.6435-9/143527248_3624243597622310_7817237084522699122_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XNEBZDUPS-kAX8zMa5w&_nc_ht=scontent-fco2-1.xx&oh=00_AfCMPGLOCdbw1PdEj2-ZJnuxJf4KV2PryrEQQboo98y5pw&oe=6627B346",
+        "year": 2023,
+        "price": 329.495,
+        "available": false,
+        "body": "Si tratta del un V12 da 7.3 litri aspirato della One-77 modificato dalla Cosworth. Il risultato? 836 CV e 821 Nm di coppia, 86 CV e 71 Nm i più del propulsore originale. La trazione è posteriore e la trasmissione, udite udite, manuale a sei marce, elementi che la rendono la più potente Aston manuale mai prodotta."
     },
     {
         "brand": "AstonMartin",
@@ -33,7 +56,8 @@
         "modelImage": "https://cdn-img.automoto.it/images/33352892/2050x/aston-martin-dbx707-amr23-edition-01-jpg.jpeg",
         "year": 2023,
         "price": 301.264,
-        "available": true
+        "available": true,
+        "body": "L'Aston Martin DBX è il primo Suv di Gaydon. È offerta in due diverse varianti, entrambe turbo benzina e dotate di trasmissione a 9 marce. La versione di accesso alla gamma monta un V8 da 550 CV di potenza e 700 Nm di coppia massima, disponibili fra i 2200 e i 5000 giri."
     },
     {
         "brand": "Ferrari",
@@ -42,15 +66,27 @@
         "modelImage": "https://cdn-img.automoto.it/images/30756687/2050x/01-front34-1a-hr-a4-jpg.jpeg",
         "year": 2022,
         "price": 390.122,
-        "available": true
+        "available": true,
+        "body": "Le performance della Purosangue di Ferrari sono da vera supercar, con una velocità massima di oltre 310 Km/h e un'accelerazione da 0 a 100 Km/h in 3,3 secondi. Per arrivare da ferma a 200 Km/h, invece, impiega soltanto 10,6 secondi."
     },
     {
         "brand": "Ferrari",
         "brandLogo": "https://upload.wikimedia.org/wikipedia/it/5/59/Logo_della_Scuderia_Ferrari_%28vecchio%29.svg",
-        "model": "sf90",
+        "model": "Sf90",
         "modelImage": "https://cdn.drivek.com/configurator-imgs/cars/it/Original/FERRARI/SF90-XX-STRADALE/43060_COUPE-2-DOORS/ferrari-sf90xx-coupe-front-view.jpg",
         "year": 2023,
         "price": 770.111,
-        "available": false
+        "available": false,
+        "body": "La SF90 Stradale è la Ferrari targata più potente di sempre: ha 1000 CV, un V8 biturbo e tre motori elettrici coordinati da un potente “cervello elettronico”, capace di farla correre fino a 340 km/h. O di farvi viaggiare per 25 km a emissioni zero."
+    },
+    {
+        "brand": "Ferrari",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/5/59/Logo_della_Scuderia_Ferrari_%28vecchio%29.svg",
+        "model": "Portofino",
+        "modelImage": "https://hd2.tudocdn.net/1093223?w=660&h=530",
+        "year": 2023,
+        "price": 270.111,
+        "available": false,
+        "body": "Con i suoi 600 cv e accelerazioni da 0 a 100 km/h in soli 3,5 secondi, la Ferrari Portofino è, infatti, la più potente convertibile a offrire contemporaneamente il tetto rigido retrattile, un baule capiente e una grande abitabilità, arricchita da due posti posteriori utilizzabili per brevi percorrenze."
     }
 ]

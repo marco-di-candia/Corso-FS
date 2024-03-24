@@ -1,0 +1,27 @@
+<br>
+<br>
+<br>
+<br>
+<div *ngIf="carsJson" class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <img [src]="carsJson.modelImage" alt="carsJson Image" class="img-fluid rounded-3">
+        </div>
+        <div class="col-md-6">
+            <h1>{{ carsJson.brand }} {{ carsJson.model }}</h1>
+            <p>Anno: {{ carsJson.year }}</p>
+            <p>Prezzo: €{{ carsJson.price }}</p>
+            <div *ngIf="carsJson.available; else notAvailable" class="text-success">
+                <p>Disponibile</p>
+            </div>
+            <ng-template #notAvailable>
+                <div class="text-danger">
+                    <p>Sold Out</p>
+                </div>
+            </ng-template>
+            <div>
+                <p>{{carsJson.body}}</p>
+            </div>
+        </div>
+    </div>
+</div>

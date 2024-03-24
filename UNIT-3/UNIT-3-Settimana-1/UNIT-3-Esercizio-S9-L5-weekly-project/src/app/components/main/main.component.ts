@@ -13,7 +13,7 @@ export class MainComponent {
   constructor() {
     this.getCars().then((carsJson) => {
       this.carsJson = carsJson;
-      this.selectRandomCars(2);
+      this.selectRandomCars(3);
     });
   }
 

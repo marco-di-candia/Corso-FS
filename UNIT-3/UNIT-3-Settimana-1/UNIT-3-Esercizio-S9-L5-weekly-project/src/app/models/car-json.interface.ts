@@ -6,4 +6,5 @@ export interface CarJson {
     year:number,
     price:number,
     available:boolean,
+    body:string
 }

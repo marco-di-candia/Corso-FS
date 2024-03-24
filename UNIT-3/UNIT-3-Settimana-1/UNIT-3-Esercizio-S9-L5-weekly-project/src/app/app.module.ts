@@ -10,6 +10,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { Error404Component } from './components/error404/error404.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 const routes: Route[] = [
   {
@@ -22,11 +24,23 @@ const routes: Route[] = [
   },
   {
     path: 'AstonMartin',
-    component:  Brand2Component,
+    component: Brand2Component,
   },
   {
     path: 'Ferrari',
-    component:  Brand3Component,
+    component: Brand3Component,
+  },
+  {
+    path: 'detail/:model',
+    component: DetailComponent,
+  },
+  {
+    path: 'error404',
+    component: Error404Component,
+  },
+  {
+    path: '**',
+    redirectTo: 'error404',
   },
 ];
 
@@ -35,12 +49,14 @@ const routes: Route[] = [
 
     AppComponent,
     Brand1Component,
-        Brand2Component,
-        Brand3Component,
-        HomeComponent,
-        NavbarComponent,
-        MainComponent,
-        FooterComponent
+    Brand2Component,
+    Brand3Component,
+    HomeComponent,
+    NavbarComponent,
+    MainComponent,
+    FooterComponent,
+    Error404Component,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

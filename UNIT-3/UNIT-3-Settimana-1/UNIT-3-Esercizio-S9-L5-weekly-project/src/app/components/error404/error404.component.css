@@ -1,0 +1,11 @@
+.background-image {
+    height: 100vh;
+    background-image: url('https://templatesjungle.com/wp-content/uploads/2023/11/image-6-1400x875.jpg');
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 767px) {
+    .background-image {
+        height: 50vh;
+    }
+}
