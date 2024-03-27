@@ -1,19 +1,21 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Products,CartItem,ProductListResponse } from '../models/products.interface';
+import { Products, CartItem, ProductListResponse } from '../models/products.interface';
 import { Observable, Observer } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
 export class ProdutServiceService {
   apiURL = "https://dummyjson.com/products"
+
   cart: CartItem[] = []
   favs: Products[] = []
-  constructor(private http:HttpClient) {}
 
- //GET * PRODS
+  constructor(private http: HttpClient) { }
 
-  getProduts(){
+  //GET * PRODS
+
+  getProduts() {
     return this.http.get<Products[]>(this.apiURL)
   }
 
@@ -29,7 +31,7 @@ export class ProdutServiceService {
   }
   removeFromCart(id: number) {
     const index = this.cart.findIndex(prd => prd.id === id)
-    if(this.cart[index].amount === 1) {
+    if (this.cart[index].amount === 1) {
       this.cart.splice(index, 1)
     } else {
       this.cart[index].amount--
@@ -57,7 +59,7 @@ export class ProdutServiceService {
     this.favs.splice(index, 1)
   }
 
-  getFavList(){
+  getFavList() {
     return new Observable((obs: Observer<Products[]>) => {
       obs.next(this.favs)
     })
