@@ -1,0 +1,27 @@
+<div class="container pt-5 sticky-lg-top bg-white">
+    <div class="col">
+        <app-shop></app-shop>
+    </div>
+</div>
+<div class="container pt-5 col-12">
+    <div class="row justify-content-around">
+        <div class="col-6 mt-3" *ngFor="let product of arrayProduct">
+            <div class="card fixed-height">
+                <img src="{{product.thumbnail}}" class="card-img-top img-fluid altezza-img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{product.title}}</h5>
+                    <p class="card-text">{{product.brand}}</p>
+                    <p class="card-text">{{product.description}}</p>
+                    <p class="card-text">{{product.price}}</p>
+                </div>
+                <div class="d-flex justify-content-between p-2">
+                    <span (click)="addToCart(product)" class="btn btn-primary"><i class="bi bi-cart-check"></i> <b>
+                            Aggigi alla carello </b>
+                    </span>
+                    <button (click)="addToFavs(product)" [disabled]="isFav(product.id)" class="btn btn-danger"><i
+                            class="bi bi-heart-fill"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

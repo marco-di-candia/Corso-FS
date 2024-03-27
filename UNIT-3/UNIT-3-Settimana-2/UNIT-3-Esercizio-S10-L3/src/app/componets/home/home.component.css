@@ -1,0 +1,7 @@
+.fixed-height {
+    height: 600px;
+}
+.altezza-img{
+    height: 300px;
+    object-fit: cover;
+}
