@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row mt-5">
+        <div class="col">
+            <div class="card mb-3 mx-auto" *ngFor="let user of arrayUsers">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="{{ user.image }}" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ user.firstName }}</h5>
+                            <p class="card-text">{{ user.title }}</p>
+                            <div class="my-2" *ngFor="let task of arrayAllToDo; let i = index">
+                                <div class="border p-3" *ngIf="task.userId === user.id"
+                                    [ngClass]="{'completed-task': task.completed, 'incomplete-task': !task.completed}">
+                                    <h2>{{ task.todo | uppercase }}</h2>
+                                    <input type="checkbox" [checked]="task.completed" (change)="toggleCompletion(i)" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

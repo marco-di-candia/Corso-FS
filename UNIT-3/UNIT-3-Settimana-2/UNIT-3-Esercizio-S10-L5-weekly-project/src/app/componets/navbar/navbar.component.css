@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+}
+.bg-coustom{
+    background-color: rgba(0, 0, 0, 0.805);
+}
+a:hover{
+    color: rgb(12, 0, 235) !important;
+}   
