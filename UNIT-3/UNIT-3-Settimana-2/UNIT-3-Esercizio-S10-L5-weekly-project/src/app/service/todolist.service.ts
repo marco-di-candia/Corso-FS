@@ -1730,11 +1730,11 @@ export class TodolistService {
     if (todo) {
       const user = this.arrayToDoUsers.find(user => user.id === userId);
       if (user) {
-        return user.firstName + ' - ' + user.title; // Concatena il titolo e il nome dell'utente
+        return user.firstName + ' - ' + user.title;
       }
       return 'Utente non trovato';
     } 
-    return 'Todo non trovato per questo utente';
+    return 'To do non trovato per questo utente';
   }
   
   toggleCompletion(index: number): void {
