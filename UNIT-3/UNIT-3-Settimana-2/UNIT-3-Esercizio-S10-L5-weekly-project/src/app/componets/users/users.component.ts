@@ -31,4 +31,7 @@ export class UsersComponent {
     const todo = this.arrayAllToDo[index];
     todo.completed = !todo.completed;
   }
+  hasTasks(user: any): boolean {
+    return this.arrayAllToDo.some(item => item.userId === user.id);
+  }
 }

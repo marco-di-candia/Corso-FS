@@ -42,4 +42,7 @@ export class AllDoToComponent implements OnInit {
       todo.todo.toLowerCase().includes(searchTerm.trim().toLowerCase())
     );
   }
+  hasTasks(user: any): boolean {
+    return this.arrayAllToDo.some(item => item.userId === user.id);
+  }
 }

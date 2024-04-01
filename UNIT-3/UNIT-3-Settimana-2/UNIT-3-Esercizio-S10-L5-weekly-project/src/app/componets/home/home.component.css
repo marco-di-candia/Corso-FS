@@ -1,5 +1,5 @@
 .img-cont {
-    background-image: url("https://images.inc.com/uploaded_files/image/1920x1080/getty_638884198_366705.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://images.inc.com/uploaded_files/image/1920x1080/getty_638884198_366705.jpg");
     width: 50%;
     height: 500px;
     background-size: cover;
@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
 }
-a:hover{
-    color: rgb(12, 0, 235) !important;
+
+a:hover {
+    color: #62b3f5 !important;
 }

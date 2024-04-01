@@ -30,4 +30,7 @@ export class NonAttiviComponent {
   toggleCompletion(index: number): void {
     return this.todolistService.toggleCompletion(index)
   }
+  hasTasks(user: any): boolean {
+    return this.arrayAllToDo.some(item => item.userId === user.id);
+  }
 }
