@@ -1,0 +1,61 @@
+<div class="container justify-content-center d-flex mt-5">
+    <div class="row">
+        <div class="col">
+            <form [formGroup]="reattiviForm" (ngSubmit)="onSubmit()">
+                <mat-form-field>
+                    <mat-label>Usename</mat-label>
+                    <input matInput formControlName="usename">
+                    <p *ngIf="reattiviForm.get('usename')?.invalid && reattiviForm.get('usename')?.touched"><b
+                            class="text-danger">Campo obbligatorio</b></p>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Nome</mat-label>
+                    <input matInput formControlName="nome">
+                    <p *ngIf="reattiviForm.get('nome')?.invalid && reattiviForm.get('nome')?.touched"><b
+                            class="text-danger">Campo obbligatorio</b></p>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Cognome</mat-label>
+                    <input matInput formControlName="cognome">
+                    <p *ngIf="reattiviForm.get('cognome')?.invalid && reattiviForm.get('cognome')?.touched"><b
+                            class="text-danger">Campo obbligatorio</b></p>
+                </mat-form-field>
+                <img src="" alt="">
+                <mat-form-field>
+                    <mat-label>Textarea</mat-label>
+                    <textarea matInput formControlName="textarea"></textarea>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Genere</mat-label>
+                    <mat-select formControlName="genere">
+                        <mat-option value="m">M</mat-option>
+                        <mat-option value="f">F</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Password</mat-label>
+                    <input matInput [type]="showPassword ? 'text' : 'password'" formControlName="password">
+                    <button mat-icon-button matSuffix (click)="togglePasswordVisibility()">
+                        <mat-icon>{{ showPassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+                    </button>
+                    <p *ngIf="reattiviForm.get('password')?.invalid && reattiviForm.get('password')?.touched">
+                        <b class="text-danger">Min 10 carrateri </b>
+                    </p>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>Conferma Password</mat-label>
+                    <input matInput [type]="showPassword ? 'text' : 'password'" formControlName="ConfermaPassword">
+                    <button mat-icon-button matSuffix (click)="togglePasswordVisibility()">
+                        <mat-icon>{{ showPassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+                    </button>
+                    <p
+                        *ngIf="reattiviForm.get('ConfermaPassword')?.invalid && reattiviForm.get('ConfermaPassword')?.touched">
+                        <b class="text-danger">La password non corrisponde </b>
+                    </p>
+                </mat-form-field>
+                <button mat-flat-button type="submit" color="primary" [disabled]="!reattiviForm.valid">Primary</button>
+            </form>
+        </div>
+    </div>
+</div>
