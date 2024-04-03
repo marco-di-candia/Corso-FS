@@ -9,15 +9,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { ReattiviFromComponent } from './reattivi-from.component';
 import { RouterModule, Routes } from '@angular/router';
 
+// Definizione delle rotte del modulo
 const routes: Routes = [
- {
-    path: '',
-    component: ReattiviFromComponent,
+  {
+    path: '', // Percorso vuoto
+    component: ReattiviFromComponent, // Componente da caricare quando il percorso è vuoto
   },
 ]
+
 @NgModule({
   declarations: [
-    ReattiviFromComponent
+    ReattiviFromComponent // Dichiarazione del componente reattivi-form
   ],
   imports: [
     CommonModule,
@@ -28,11 +30,11 @@ const routes: Routes = [
     MatButtonModule,
     MatInputModule,
     MatIconModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes) // Configurazione delle rotte per il modulo figlio
   ],
   exports: [
-    ReattiviFromComponent,
-    RouterModule
+    ReattiviFromComponent, // Esportazione del componente reattivi-form
+    RouterModule // Esportazione del modulo di routing per il modulo figlio
   ]
 })
-export class ReattiviModuleModule { }
+export class ReattiviModuleModule { } // Definizione del modulo dei form reattivi
