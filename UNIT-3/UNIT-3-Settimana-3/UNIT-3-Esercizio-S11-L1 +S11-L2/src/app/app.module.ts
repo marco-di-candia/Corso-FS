@@ -1,20 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { Route,RouterModule } from '@angular/router';
+import { Route, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { DrivenFormComponent } from './componets/driven-form/driven-form.component';
-import { ReattiviFromComponent } from './componets/reattivi-from/reattivi-from.component';
 import { NavbarComponent } from './componets/navbar/navbar.component';
 import { HomeComponent } from './componets/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatSelectModule} from '@angular/material/select';
-import {MatButtonModule} from '@angular/material/button';
-import {MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 
 
 const routes: Route[] = [
@@ -28,7 +27,10 @@ const routes: Route[] = [
   },
   {
     path: 'reattivi',
-    component: ReattiviFromComponent,
+    loadChildren: () =>
+      import('./componets/reattivi-from/reattivi-module.module').then(
+        (m) => m.ReattiviModuleModule
+      ),
   },
 ]
 
@@ -36,7 +38,6 @@ const routes: Route[] = [
   declarations: [
     AppComponent,
     DrivenFormComponent,
-    ReattiviFromComponent,
     NavbarComponent,
     HomeComponent
   ],
@@ -51,8 +52,9 @@ const routes: Route[] = [
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
     NoopAnimationsModule,
-    MatIconModule
-    
+    MatIconModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

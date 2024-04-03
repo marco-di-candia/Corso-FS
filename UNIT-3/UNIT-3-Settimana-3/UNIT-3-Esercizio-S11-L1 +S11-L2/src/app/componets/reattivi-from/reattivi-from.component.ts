@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { AuthService } from 'src/app/auth/auth.service';
 
 @Component({
   selector: 'app-reattivi-from',
@@ -9,6 +10,9 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 export class ReattiviFromComponent implements OnInit {
   reattiviForm!: FormGroup
   showPassword: boolean = false;
+  isAuthenticated: boolean = false;
+
+  constructor(private auth:AuthService){}
 
   ngOnInit(): void {
     this.reattiviForm = new FormGroup({
@@ -19,13 +23,17 @@ export class ReattiviFromComponent implements OnInit {
       genere: new FormControl(),
       textarea: new FormControl(null),
       usename: new FormControl(null, Validators.required)
+
     })
+      this.isAuthenticated = this.auth.isAuthenticated;
   }
 
   onSubmit() {
-    console.log(this.reattiviForm);
+    const userData = this.reattiviForm.value
+    localStorage.setItem('user', JSON.stringify(userData));
 
   }
+
   passwordsMatchValidator(control: FormControl): { [s: string]: boolean } | null {
     if (!this.reattiviForm) {
       return null; // Non fare nulla se reattiviForm non è definito

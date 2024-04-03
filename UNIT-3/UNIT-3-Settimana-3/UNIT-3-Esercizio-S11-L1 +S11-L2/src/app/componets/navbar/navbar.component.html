@@ -9,11 +9,14 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" [routerLink]="'/'">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" *ngIf="!isAuthenticated">
                     <a class="nav-link" [routerLink]="'driven'">login</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" *ngIf="!isAuthenticated">
                     <a class="nav-link" [routerLink]="'reattivi'">Sign in</a>
+                </li>
+                <li class="nav-item" *ngIf="isAuthenticated">
+                    <a class="nav-link" (click)="logout()">Logout</a>
                 </li>
             </ul>
         </div>
