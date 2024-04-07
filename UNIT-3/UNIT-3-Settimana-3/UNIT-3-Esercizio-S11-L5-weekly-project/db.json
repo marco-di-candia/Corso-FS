@@ -4,45 +4,45 @@
       "email": "dario@dario.com",
       "password": "$2a$10$ZLY63quWnMVo0lO951uFdOJRfUxeo8U6YJ/Cue06Vgp4Ad8S/CjaC",
       "name": "Dario",
+      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABVnl4dGon0eVFladzMquPt6xcMlUOymayPucNAuGb4h9Lq6apZShiu99VHa6OFS609rZq--kNOJOCCjfX4SONXYmf2aT6EgGnQ.png?r=15c",
       "id": 2
     },
     {
       "email": "mario@rossi.com",
       "password": "$2a$10$RsIosJKYgHyT8uo.bosI5uYpN0PVmA6xdnhjT4jIFcbKbVS2RsiRC",
       "name": "Mario Rossi",
+      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABWXtX1XFsyIPzMvXcMeuiB590R9LklH9LARfPd0Cn_IqgLHaVaugEd69jqZ10F2YQJJlnfGhN1oe5GpH5Ayv1p3Rf_0rxQ_8GA.png?r=8ab",
       "id": 3
+    },
+    {
+      "email": "mdicandia89@gmail.com",
+      "password": "$2a$10$h08oXIK/NRGQ8Dm48Q0sUO.TJt7nSBmZTIsTtm0s2uzugDJmh71MO",
+      "name": "marco ",
+      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABXa0Rqd2b1POYDjzlprt5HdbfLsA9a_OYv1co1qdvzHt8L-pSjUC41if9YQyTrqWFbZrPYmNAHisOicP-kEhEImw-VXmcdedSA.png?r=880",
+      "id": 4
+    },
+    {
+      "email": "pizza@gmail.com",
+      "password": "$2a$10$v87ZiLN.xilAQ2DZbUKv7OW1dIXeBtrcyNNbb5MBxUIXdUDqILGO6",
+      "name": "pizza",
+      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABWLaJuk3OZ3rF9xN_2BUljMdFJSg_OKfpKOHAiVGh5Atu9JKFG6UF_18gOQ3XO3I3pu4NuhOWYJyD6hmYBnTjMhDdvVSt708LQ.png?r=72f",
+      "id": 5
     }
   ],
   "favorites": [
     {
-      "userId": 2,
-      "movieId": 460465,
-      "id": 6
+      "id": 717192,
+      "userId": 5,
+      "movieId": 717192,
+      "poster_path": "/w6n1pu9thpCVHILejsuhKf3tNCV.jpg",
+      "title": "Ferry"
     },
     {
-      "userId": 3,
-      "movieId": 804435,
-      "id": 9
-    },
-    {
-      "userId": 3,
-      "movieId": 399566,
-      "id": 10
-    },
-    {
-      "userId": 2,
-      "movieId": 635302,
-      "id": 19
-    },
-    {
-      "userId": 2,
-      "movieId": 567189,
-      "id": 26
-    },
-    {
-      "userId": 2,
-      "movieId": 615457,
-      "id": 27
+      "id": 808023,
+      "userId": 5,
+      "movieId": 808023,
+      "poster_path": "/vXHzO26mJaOt4VO7ZFiM6No5ScT.jpg",
+      "title": "The Virtuoso"
     }
   ],
   "genres": [

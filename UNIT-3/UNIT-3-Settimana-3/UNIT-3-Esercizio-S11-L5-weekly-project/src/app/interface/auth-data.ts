@@ -4,6 +4,7 @@ export interface AuthData {
         name: string,
         id: string,
         email: string
+        imageUrl: string
     }
 }
 

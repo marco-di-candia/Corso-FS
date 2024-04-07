@@ -76,3 +76,12 @@ img {
     height: 100px;
     background-color: rgba(0, 0, 0, 0.605);
 }
+.btn-tras {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .card{
+    height: 400px;
+    object-fit: contain;
+  }

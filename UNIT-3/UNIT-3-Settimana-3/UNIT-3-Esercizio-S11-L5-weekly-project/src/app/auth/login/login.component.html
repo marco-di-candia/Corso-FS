@@ -1,0 +1,45 @@
+<div class="showcase">
+    <div class="logo">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="showcase-content">
+        <div class="formm">
+            <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+                <h1>Log In</h1>
+                <div class="info">
+                    <div class="error-message text-danger" *ngIf="errorMessage">{{ errorMessage }}</div>
+                    
+                    <label for="email" class="form-label text-secondary">Email</label>
+                    <input type="email" id="email" name="email" required class="form-control py-2" required ngModel />
+
+
+                    <label for="password" class="form-label text-secondary">Password</label>
+                    <input type="password" id="password" name="password" required class="form-control py-2" required minlength="4" ngModel />
+                    
+
+                </div>
+
+                <button type="submit" [disabled]="loginForm.invalid" class="btn btn-primary mt-4">Accedi</button>
+
+                <div class="help">
+                    <div class="text-secondary">
+                        <input value="true" type="checkbox"><label>Remember me</label>
+                    </div>
+
+                    <a href="https://www.netflix.com/dz-en/LoginHelp">Need Help ?</a>
+                </div>
+            </form>
+        </div>
+        <div class="more">
+            <p class="text-secondary">
+                This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
+            </p>
+        </div>
+    </div>
+</div>

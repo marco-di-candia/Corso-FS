@@ -41,4 +41,13 @@
   a:hover{
     color: rgb(167, 167, 167) !important;
   }
+  .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.pointer{
+    cursor: pointer;
+
+}
+
   
