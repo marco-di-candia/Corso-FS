@@ -30,12 +30,12 @@
                 <i class="fs-2 bi bi-search me-4"></i>
 
                 <!-- Dropdown -->
-                <div class="dropdown pointer">
+                <div class="dropdown pointer padd">
                     <div class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         <img src="{{user.user.imageUrl}}" class="rounded-3" width="40px" alt="User Avatar">
                     </div>
-                    <ul class="dropdown-menu dropdown-menu-end bg-black" aria-labelledby="dropdownMenuButton">
+                    <ul class="dropdown-menu dropdown-menu-end bg-black " aria-labelledby="dropdownMenuButton">
                         <li><a class="dropdown-item text-white">Benvenuto {{user.user.name}}</a></li>
                         <li><a class="dropdown-item text-danger pointer" *ngIf="user" (click)="logout()">Logout</a></li>
                     </ul>

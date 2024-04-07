@@ -108,9 +108,3 @@ img {
 }
 
 /* Stile per le card */
-.card {
-    height: 400px;
-    /* Altezza */
-    object-fit: contain;
-    /* Adatta l'immagine alla dimensione del contenitore */
-}
