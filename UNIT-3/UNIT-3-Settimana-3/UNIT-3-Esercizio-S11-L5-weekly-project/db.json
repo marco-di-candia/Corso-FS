@@ -43,6 +43,41 @@
       "movieId": 808023,
       "poster_path": "/vXHzO26mJaOt4VO7ZFiM6No5ScT.jpg",
       "title": "The Virtuoso"
+    },
+    {
+      "id": 804435,
+      "userId": 4,
+      "movieId": 804435,
+      "poster_path": "/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg",
+      "title": "Vanquish"
+    },
+    {
+      "id": 567189,
+      "userId": 4,
+      "movieId": 567189,
+      "poster_path": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
+      "title": "Senza rimorso"
+    },
+    {
+      "id": 573680,
+      "userId": 4,
+      "movieId": 573680,
+      "poster_path": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
+      "title": "The Banishing"
+    },
+    {
+      "id": 632357,
+      "userId": 4,
+      "movieId": 632357,
+      "poster_path": "/dxBTcvdH9d6apXZGnThPIVEJ376.jpg",
+      "title": "Il sacro male"
+    },
+    {
+      "id": 791373,
+      "userId": 5,
+      "movieId": 791373,
+      "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+      "title": "Zack Snyder's Justice League"
     }
   ],
   "genres": [

@@ -1,45 +1,62 @@
+/* Reset del box model */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
+/* Stili di base per il body */
 body {
 	font-family: 'Arial', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: #000;
+	/* Colore di sfondo nero */
 	color: #999;
+	/* Colore del testo grigio */
 }
 
+/* Rimuove i punti dall'elenco degli elementi non ordinati */
 ul {
 	list-style: none;
 }
 
+/* Stili per gli elementi di intestazione */
 h1,
 h2,
 h3,
 h4 {
 	color: #fff;
+	/* Colore del testo bianco */
 }
 
+/* Stili per i link */
 a {
 	color: #fff;
+	/* Colore del testo bianco */
 	text-decoration: none;
+	/* Rimuove il sottolineato dai link */
 }
 
+/* Stili per i paragrafi */
 p {
 	margin: 0.5rem 0;
+	/* Margin superiore e inferiore di 0.5 rem */
 }
 
+/* Stili per le immagini */
 img {
 	width: 100%;
+	/* Le immagini occupano il 100% della larghezza del contenitore */
 }
 
+/* Stili per il componente showcase */
 .showcase {
 	width: 100%;
 	height: 100vh;
+	/* Altezza pari al 100% dell'altezza della viewport */
 	position: relative;
 	background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+	/* Immagine di sfondo con copertura */
 }
 
 .showcase::after {
@@ -51,9 +68,12 @@ img {
 	height: 100%;
 	z-index: 1;
 	background: rgba(0, 0, 0, 0.65);
+	/* Sfondo semi-trasparente */
 	box-shadow: inset 30px 10px 150px #000000;
+	/* Ombra interna */
 }
 
+/* Stili per il logo */
 .logo {
 	position: relative;
 	z-index: 2;
@@ -67,6 +87,7 @@ img {
 	left: 40px;
 }
 
+/* Contenuto del componente showcase */
 .showcase-content {
 	position: relative;
 	z-index: 2;
@@ -82,6 +103,7 @@ img {
 	padding: 60px 65px;
 }
 
+/* Stili per il componente del modulo di registrazione */
 .formm h1 {
 	margin-bottom: 20px;
 }
@@ -93,7 +115,6 @@ img {
 
 .formm .info {
 	padding: 5px 0;
-	/* margin-bottom: 20px; */
 }
 
 .formm .info .email {
@@ -125,6 +146,7 @@ img {
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
 }
 
+/* Stili per il componente di aiuto */
 .help {
 	display: flex;
 	justify-content: space-between;
@@ -139,8 +161,7 @@ img {
 	text-decoration: underline;
 }
 
-/* ------ input ------- */
-
+/* Stili per gli input */
 input[type=checkbox] {
 	background: #737373;
 	-webkit-border-radius: 2px;
@@ -153,20 +174,13 @@ input[type=checkbox] {
 	margin-right: 5px;
 }
 
-input[type=email] {
-	background: #989898;
-}
-
-input[type=text] {
-	background: #989898;
-}
-
+input[type=email],
+input[type=text],
 input[type=password] {
 	background: #989898;
 }
 
-/* ------ input end ------- */
-
+/* Stili per i componenti di feedback */
 .fcbk {
 	width: 100%;
 	display: flex;
@@ -180,6 +194,7 @@ input[type=password] {
 	margin-right: 10px;
 }
 
+/* Stili per il componente di registrazione */
 .signup {
 	width: 100%;
 	display: flex;
@@ -191,6 +206,7 @@ input[type=password] {
 	margin-right: 5px;
 }
 
+/* Stili per ulteriori informazioni */
 .more {
 	font-size: 0.8em;
 	line-height: 1.1em;

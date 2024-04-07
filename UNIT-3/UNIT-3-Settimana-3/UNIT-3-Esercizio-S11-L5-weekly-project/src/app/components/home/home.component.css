@@ -1,4 +1,6 @@
+/* Stile per la sezione principale dell'immagine */
 .img-home {
+    /* Sfondo con gradiente trasparente e immagine di sfondo */
     background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7)), url("https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTWgpZD0tzf89z88PfIHGECFfY7s8-viI91wuTUiifqV8Uowald8v3MSHmkUO4jAuFlTU8IKCNkONTT1OkxvWJrDubQAYD-McpY0.webp?r=eba");
     width: 100%;
     height: 800px;
@@ -7,6 +9,7 @@
     position: relative;
 }
 
+/* Effetto gradiente sul fondo dell'immagine */
 .img-home::after {
     content: "";
     position: absolute;
@@ -18,70 +21,96 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
 }
 
+/* Stile per le immagini all'interno */
 img {
     height: 100%;
 }
 
+/* Stile per i pulsanti con classe "b" */
 .b {
     font-weight: 600;
 }
 
+/* Stile per le immagini delle card */
 .img-card {
     height: 400px;
     object-fit: cover;
 }
 
-
-
-/* mini card */
-
-
+/* Stili per le card in miniatura */
 .overlay {
     position: absolute;
     bottom: 0;
     left: 10;
+    /* Era necessario specificare anche la distanza dal bordo sinistro */
     width: 100%;
     height: 100%;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
+/* Quando passi sopra l'overlay, mostra la card-container */
 .overlay:hover {
     opacity: 1;
+    /* Opacità completa */
 }
 
+/* Imposta inizialmente la card-container come nascosta */
 .card-container {
     visibility: hidden;
+    /* Invisibile */
     opacity: 0;
+    /* Opacità 0 */
     transition: visibility 0s, opacity 0.3s ease;
+    /* Transizione per rendere visibile la card */
 }
 
+/* Quando passi sopra l'overlay, mostra la card-container */
 .overlay:hover .card-container {
     visibility: visible;
+    /* Visibile */
     opacity: 1;
+    /* Opacità completa */
 }
 
+/* Transizione per l'effetto di zoom sul passaggio del mouse */
 .card-hover {
     transition: transform 0.3s ease;
+    /* Effetto di trasformazione su 0.3 secondi */
 }
 
+/* Quando passi sopra la card, ingrandiscila */
 .card-hover:hover {
     transform: scale(1.2);
+    /* Ingrandimento del 20% */
 }
 
+/* Stile per il pulsante "sposta" */
 .sposta {
     right: 10px;
+    /* Distanza dal bordo destro */
     top: 150px;
+    /* Distanza dal bordo superiore */
     width: 30px;
+    /* Larghezza */
     height: 100px;
+    /* Altezza */
     background-color: rgba(0, 0, 0, 0.605);
+    /* Colore di sfondo con trasparenza */
 }
+
+/* Stile per i pulsanti trasparenti */
 .btn-tras {
     background-color: transparent;
+    /* Sfondo trasparente */
     border: none;
-  }
-  
-  .card{
+    /* Nessun bordo */
+}
+
+/* Stile per le card */
+.card {
     height: 400px;
+    /* Altezza */
     object-fit: contain;
-  }
+    /* Adatta l'immagine alla dimensione del contenitore */
+}

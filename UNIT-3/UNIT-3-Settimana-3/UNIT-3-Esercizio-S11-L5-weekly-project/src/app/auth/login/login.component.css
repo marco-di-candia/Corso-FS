@@ -1,206 +1,332 @@
+/* Impostazioni globali per tutti gli elementi */
 * {
 	box-sizing: border-box;
+	/* Imposta il box-sizing a border-box per includere il padding e il bordo nei calcoli delle dimensioni */
 	margin: 0;
+	/* Azzera i margini */
 	padding: 0;
+	/* Azzera i padding */
 }
 
+/* Stile per il body */
 body {
 	font-family: 'Arial', sans-serif;
+	/* Imposta il tipo di carattere */
 	-webkit-font-smoothing: antialiased;
+	/* Migliora la resa del testo sui browser WebKit */
 	background: #000;
+	/* Imposta lo sfondo del body */
 	color: #999;
+	/* Imposta il colore del testo */
 }
 
+/* Rimuove i punti elenco predefiniti */
 ul {
 	list-style: none;
 }
 
+/* Impostazioni di stile per gli elementi di intestazione */
 h1,
 h2,
 h3,
 h4 {
 	color: #fff;
+	/* Imposta il colore del testo degli elementi di intestazione */
 }
 
+/* Stile per i link */
 a {
 	color: #fff;
+	/* Imposta il colore dei link */
 	text-decoration: none;
+	/* Rimuove la sottolineatura dei link */
 }
 
+/* Imposta il margine superiore e inferiore dei paragrafi */
 p {
 	margin: 0.5rem 0;
 }
 
+/* Imposta la larghezza delle immagini al 100% */
 img {
 	width: 100%;
 }
 
+/* Stile per il contenitore principale */
 .showcase {
 	width: 100%;
+	/* Imposta la larghezza al 100% */
 	height: 100vh;
+	/* Imposta l'altezza al 100% della viewport */
 	position: relative;
+	/* Imposta il posizionamento relativo */
 	background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+	/* Imposta lo sfondo del contenitore */
 }
 
+/* Pseudo-elemento ::after per il contenitore principale */
 .showcase::after {
 	content: '';
+	/* Contenuto vuoto */
 	position: absolute;
+	/* Posizionamento assoluto */
 	top: 0;
+	/* Distanza dal bordo superiore */
 	left: 0;
+	/* Distanza dal bordo sinistro */
 	width: 100%;
+	/* Larghezza al 100% */
 	height: 100%;
+	/* Altezza al 100% */
 	z-index: 1;
+	/* Imposta lo z-index sopra il contenuto */
 	background: rgba(0, 0, 0, 0.65);
+	/* Sfondo con opacità */
 	box-shadow: inset 30px 10px 150px #000000;
+	/* Ombra interna */
 }
 
+/* Stile per il logo */
 .logo {
 	position: relative;
+	/* Posizionamento relativo */
 	z-index: 2;
+	/* Imposta lo z-index sopra gli altri elementi */
 	height: 90px;
+	/* Altezza del logo */
 }
 
+/* Stile per l'immagine del logo */
 .logo img {
 	width: 170px;
+	/* Larghezza del logo */
 	position: absolute;
+	/* Posizionamento assoluto */
 	top: 20px;
+	/* Distanza dal bordo superiore */
 	left: 40px;
+	/* Distanza dal bordo sinistro */
 }
 
+/* Stile per il contenuto della vetrina */
 .showcase-content {
 	position: relative;
+	/* Posizionamento relativo */
 	z-index: 2;
+	/* Imposta lo z-index sopra il contenuto */
 	width: 450px;
+	/* Larghezza del contenuto */
 	height: 650px;
+	/* Altezza del contenuto */
 	background: rgb(0, 0, 0, 0.65);
+	/* Sfondo del contenuto con opacità */
 	margin: 0 auto;
+	/* Margine automatico */
 	display: flex;
+	/* Imposta il display a flessione */
 	flex-direction: column;
+	/* Imposta la direzione della flessione a colonna */
 	justify-content: flex-start;
+	/* Allinea il contenuto all'inizio */
 	align-items: flex-start;
+	/* Allinea gli elementi alla sinistra */
 	text-align: left;
+	/* Allinea il testo a sinistra */
 	padding: 60px 65px;
+	/* Padding */
 }
 
+/* Stile per l'intestazione del modulo */
 .formm h1 {
 	margin-bottom: 20px;
+	/* Margine inferiore */
 }
 
+/* Stile per il modulo */
 .formm {
 	width: 100%;
+	/* Larghezza del modulo al 100% */
 	margin-bottom: 40px;
+	/* Margine inferiore */
 }
 
+/* Stile per le informazioni nel modulo */
 .formm .info {
 	padding: 5px 0;
-	/* margin-bottom: 20px; */
+	/* Padding */
 }
 
+/* Stile per l'input email */
 .formm .info .email {
 	margin-bottom: 30px;
+	/* Margine inferiore */
 	width: 100%;
+	/* Larghezza al 100% */
 	height: 50px;
+	/* Altezza */
 	border-radius: 5px;
+	/* Bordi arrotondati */
 	border: none;
+	/* Nessun bordo */
 	padding: 10px;
+	/* Padding */
 	font-size: inherit;
+	/* Dimensione del carattere ereditata */
 }
 
+/* Stile per i pulsanti nel modulo */
 .formm .btn {
 	margin-bottom: 10px;
+	/* Margine inferiore */
 	width: 100%;
+	/* Larghezza al 100% */
 }
 
+/* Stile per il pulsante primario */
 .btn-primary {
 	width: 100%;
+	/* Larghezza al 100% */
 	height: 50px;
+	/* Altezza */
 	border-radius: 5px;
+	/* Bordi arrotondati */
 	background: red;
+	/* Sfondo rosso */
 	color: #fff;
+	/* Colore del testo */
 	font-size: inherit;
+	/* Dimensione del carattere ereditata */
 	font-weight: bold;
+	/* Grassetto */
 	border: none;
+	/* Nessun bordo */
 	cursor: pointer;
+	/* Cursore puntatore */
 	outline: none;
+	/* Nessun contorno */
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+	/* Ombra */
 }
 
+/* Stile per il testo di aiuto */
 .help {
 	display: flex;
+	/* Imposta il display a flessione */
 	justify-content: space-between;
+	/* Spazio tra gli elementi */
 	font-size: 0.8rem;
+	/* Dimensione del carattere */
 }
 
+/* Stile per i link di aiuto */
 .help a {
 	color: #999;
+	/* Colore del testo grigio */
 }
 
+/* Stile per i link di aiuto al passaggio del mouse */
 .help a:hover {
 	text-decoration: underline;
+	/* Sottolinea il link al passaggio del mouse */
 }
 
-/* ------ input ------- */
-
+/* Stile per gli input di tipo checkbox */
 input[type=checkbox] {
 	background: #737373;
+	/* Sfondo grigio */
 	-webkit-border-radius: 2px;
+	/* Bordi arrotondati su WebKit */
 	-moz-border-radius: 2px;
+	/* Bordi arrotondati su Firefox */
 	border-radius: 2px;
+	/* Bordi arrotondati */
 	border: 0;
+	/* Nessun bordo */
 	height: 16px;
+	/* Altezza */
 	left: -20px;
+	/* Posizione */
 	width: 16px;
+	/* Larghezza */
 	margin-right: 5px;
+	/* Margine destro */
 }
 
+/* Stile per gli input di tipo email */
 input[type=email] {
 	background: #989898;
+	/* Sfondo grigio */
 }
 
+/* Stile per gli input di tipo testo */
 input[type=text] {
 	background: #989898;
+	/* Sfondo grigio */
 }
 
+/* Stile per gli input di tipo password */
 input[type=password] {
 	background: #989898;
+	/* Sfondo grigio */
 }
 
-/* ------ input end ------- */
-
+/* Stile per il blocco dei social media */
 .fcbk {
 	width: 100%;
+	/* Larghezza al 100% */
 	display: flex;
+	/* Imposta il display a flessione */
 	align-items: center;
+	/* Allinea gli elementi al centro */
 	justify-content: flex-start;
+	/* Allinea il contenuto all'inizio */
 	font-size: 0.8em;
+	/* Dimensione del carattere */
 }
 
+/* Stile per l'immagine dei social media */
 .fcbk img {
 	width: 20px;
+	/* Larghezza */
 	margin-right: 10px;
+	/* Margine destro */
 }
 
+/* Stile per il blocco di registrazione */
 .signup {
 	width: 100%;
+	/* Larghezza al 100% */
 	display: flex;
+	/* Imposta il display a flessione */
 	align-items: center;
+	/* Allinea gli elementi al centro */
 	justify-content: flex-start;
+	/* Allinea il contenuto all'inizio */
 }
 
+/* Stile per il testo di registrazione */
 .signup p {
 	margin-right: 5px;
+	/* Margine destro */
 }
 
+/* Stile per ulteriori informazioni */
 .more {
 	font-size: 0.8em;
+	/* Dimensione del carattere */
 	line-height: 1.1em;
+	/* Altezza della riga */
 }
 
+/* Stile per i link "maggiori informazioni" */
 .more a {
 	color: rgb(17, 108, 228);
+	/* Colore del testo */
 }
 
+/* Stile per i link "maggiori informazioni" al passaggio del mouse */
 .more a:hover,
 .signup a:hover {
 	text-decoration: underline;
+	/* Sottolinea il link al passaggio del mouse */
 }

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { MovieService } from 'src/app/service/movie.service';
-import { moviePopular } from 'src/app/interface/db.json';
-import { FavoriteInterface } from 'src/app/interface/favorite-interface';
-import { FavoriteServiceService } from 'src/app/service/favorite-service.service';
+import { MovieService } from 'src/app/service/movie.service'; // Importa il servizio MovieService
+import { moviePopular } from 'src/app/interface/db.json'; // Importa il tipo di dato 'moviePopular' da un file JSON
+import { FavoriteInterface } from 'src/app/interface/favorite-interface'; // Importa l'interfaccia FavoriteInterface
+import { FavoriteServiceService } from 'src/app/service/favorite-service.service'; // Importa il servizio FavoriteServiceService
 import { AuthServiceService } from 'src/app/auth/auth-service.service'; // Importa il servizio AuthDataService
 
 @Component({
@@ -11,8 +11,8 @@ import { AuthServiceService } from 'src/app/auth/auth-service.service'; // Impor
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  movies: moviePopular[] = [];
-  favs: FavoriteInterface[] = [];
+  movies: moviePopular[] = []; // Array che conterrà i film popolari
+  favs: FavoriteInterface[] = []; // Array che conterrà i preferiti dell'utente
 
   constructor(
     private movieService: MovieService,
@@ -21,10 +21,10 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    // Ottieni i film
-    this.authDataService.restore();
+    // Ottieni i film popolari
+    this.authDataService.restore(); // Ripristina i dati dell'utente autenticato
     this.movieService.getMovies().subscribe((data) => {
-      this.movies = data;
+      this.movies = data; // Assegna i film popolari all'array 'movies'
     });
 
     // Ottieni l'ID dell'utente corrente
@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
     if (userId !== null) {
       // Ottieni la lista dei preferiti utilizzando l'ID dell'utente corrente
       this.favoriteService.getFavList(userId).subscribe((favs: FavoriteInterface[]) => {
-        this.favs = favs;
+        this.favs = favs; // Assegna i preferiti dell'utente all'array 'favs'
         console.log('Preferiti:', this.favs); // Stampa la lista dei preferiti
       });
     } else {
@@ -41,10 +41,12 @@ export class HomeComponent implements OnInit {
     }
   }
 
+  // Aggiunge un film ai preferiti
   addToFavs(movie: moviePopular) {
     const userId = this.authDataService.getUserId(); // Ottieni l'ID dell'utente corrente
     if (userId !== null) {
       const movieId = movie.id;
+      // Aggiunge il film ai preferiti utilizzando il servizio FavoriteServiceService
       this.favoriteService.addFavorite(userId, movieId, movie).subscribe((newFav: FavoriteInterface) => {
         console.log('Film aggiunto ai preferiti:', newFav);
         // Aggiorna la lista dei preferiti dopo l'aggiunta
@@ -56,12 +58,14 @@ export class HomeComponent implements OnInit {
     }
   }
 
-
+  // Verifica se un film è tra i preferiti
   isFav(id: number) {
     return this.favs.some(fav => fav.movieId === id);
   }
 
+  // Rimuove un film dai preferiti
   removeFromFav(id: number) {
+    // Rimuove il film dai preferiti utilizzando il servizio FavoriteServiceService
     this.favoriteService.removeFromFav(id).subscribe(() => {
       console.log('Film rimosso dai preferiti:', id);
       // Aggiorna la lista dei preferiti dopo la rimozione
