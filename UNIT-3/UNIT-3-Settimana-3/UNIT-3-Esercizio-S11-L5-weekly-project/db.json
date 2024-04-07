@@ -27,6 +27,13 @@
       "name": "pizza",
       "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABWLaJuk3OZ3rF9xN_2BUljMdFJSg_OKfpKOHAiVGh5Atu9JKFG6UF_18gOQ3XO3I3pu4NuhOWYJyD6hmYBnTjMhDdvVSt708LQ.png?r=72f",
       "id": 5
+    },
+    {
+      "email": "tokyo@gmail.com",
+      "password": "$2a$10$8CafkJA7qdRXrZFPNF.Yl.WCNrE8TnLbIs0za2/H./4hgodaptNyy",
+      "name": "tokyo",
+      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABRIVtxA1PJtPvz-iRoR9T2FsPAxEux_f0k06Ko8_OuUylpVzicoCS8BX5Dk4pip3rgXOUozZVSVP25SRHdc7CoJCIuNGjerXpw.png?r=28c",
+      "id": 6
     }
   ],
   "favorites": [
@@ -78,6 +85,76 @@
       "movieId": 791373,
       "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
       "title": "Zack Snyder's Justice League"
+    },
+    {
+      "id": 578701,
+      "userId": 6,
+      "movieId": 578701,
+      "poster_path": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
+      "title": "Quelli che mi vogliono morto"
+    },
+    {
+      "id": 399566,
+      "userId": 6,
+      "movieId": 399566,
+      "poster_path": "/6Xq0gAxrm8KMAKWP4KYYhPWoQXM.jpg",
+      "title": "Godzilla vs. Kong"
+    },
+    {
+      "id": 460465,
+      "userId": 6,
+      "movieId": 460465,
+      "poster_path": "/iW03OMEI3htIAV1P8FwM867PLIj.jpg",
+      "title": "Mortal Kombat"
+    },
+    {
+      "id": 615457,
+      "userId": 6,
+      "movieId": 615457,
+      "poster_path": "/iECT5xNf72P7cx9LDMrEwhGYD5O.jpg",
+      "title": "Io sono Nessuno"
+    },
+    {
+      "id": 635302,
+      "userId": 6,
+      "movieId": 635302,
+      "poster_path": "/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg",
+      "title": "Demon Slayer - The Movie: Mugen Train"
+    },
+    {
+      "id": 586047,
+      "userId": 6,
+      "movieId": 586047,
+      "poster_path": "/xdrFKWpUx2JjK7BeUJGA5iaI5rA.jpg",
+      "title": "서복"
+    },
+    {
+      "id": 813258,
+      "userId": 6,
+      "movieId": 813258,
+      "poster_path": "/dkokENeY5Ka30BFgWAqk14mbnGs.jpg",
+      "title": "Cuccioli mostruosi - Un corto di Hotel Transylvania"
+    },
+    {
+      "id": 726684,
+      "userId": 6,
+      "movieId": 726684,
+      "poster_path": "/tf9nWFyJ745mBFkXZtPWabDYBR3.jpg",
+      "title": "Miraculous World : Shanghai, la légende de Ladydragon"
+    },
+    {
+      "id": 527774,
+      "userId": 6,
+      "movieId": 527774,
+      "poster_path": "/zDgV6rPCqAUDOtfKvvxExOiR2om.jpg",
+      "title": "Raya e l'ultimo drago"
+    },
+    {
+      "id": 811367,
+      "userId": 6,
+      "movieId": 811367,
+      "poster_path": "/A5aMLpqnvF3IfJ9RRnLwntIMtrm.jpg",
+      "title": "22 contro la Terra"
     }
   ],
   "genres": [
