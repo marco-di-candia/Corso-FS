@@ -1,45 +1,45 @@
-// Importa i moduli necessari da Angular
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { Route, RouterModule } from '@angular/router'; // Importa il modulo di routing
+import { Route, RouterModule } from '@angular/router';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
 
-// Importa i componenti dell'applicazione
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
-import { AuthGuard } from './auth/auth.guard'; // Importa il guardiano AuthGuard
+import { AuthGuard } from './auth/auth.guard';
 import { UsersComponent } from './components/users/users.component';
 import { LoginComponent } from './auth/login/login.component';
-import { RegisterComponent } from './auth/register/register.component';
+import { RegisterComponent } from './auth/register/register.component'; // Importa il guardiano AuthGuard
+import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
-import { ValidUrlDirective } from './directive/valid-url.directive'; // Importa la direttiva ValidUrlDirective
+import { ValidUrlDirective } from './directive/valid-url.directive';
 
-// Definisce le rotte dell'applicazione
+
 const routes: Route[] = [
   {
     path: '', // Rotta per la home page
     component: HomeComponent,
-    canActivate: [AuthGuard] // Utilizza l'AuthGuard per proteggere questa rotta
+    canActivate: [AuthGuard]
   },
   {
-    path: 'users', // Rotta per la pagina degli utenti
+    path: 'users', // Rotta per la home page
     component: UsersComponent,
-    canActivate: [AuthGuard] // Utilizza l'AuthGuard per proteggere questa rotta
+    canActivate: [AuthGuard]
   },
   {
-    path: 'login', // Rotta per la pagina di login
+    path: 'login',
     component: LoginComponent,
+
   },
   {
-    path: 'register', // Rotta per la pagina di registrazione
+    path: 'SingIn',
     component: RegisterComponent,
+
   },
 ]
 
 @NgModule({
-  declarations: [ // Dichiarazione dei componenti e delle direttive utilizzate nell'app
+  declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
@@ -47,16 +47,16 @@ const routes: Route[] = [
     LoginComponent,
     RegisterComponent,
     FooterComponent,
-    ValidUrlDirective // Aggiungi la direttiva ValidUrlDirective
+    ValidUrlDirective
   ],
-  imports: [ // Importa i moduli necessari per l'app
+  imports: [
     BrowserModule,
-    HttpClientModule, // Modulo per effettuare richieste HTTP
-    FormsModule, // Modulo per gestire i form
+    HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(routes), // Configura il modulo di routing con le rotte definite
 
   ],
-  providers: [], // Fornitori di servizi
-  bootstrap: [AppComponent] // Componente di avvio dell'applicazione
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
