@@ -1,42 +1,84 @@
 {
   "users": [
     {
-      "email": "dario@dario.com",
-      "password": "$2a$10$ZLY63quWnMVo0lO951uFdOJRfUxeo8U6YJ/Cue06Vgp4Ad8S/CjaC",
-      "name": "Dario",
-      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABVnl4dGon0eVFladzMquPt6xcMlUOymayPucNAuGb4h9Lq6apZShiu99VHa6OFS609rZq--kNOJOCCjfX4SONXYmf2aT6EgGnQ.png?r=15c",
-      "id": 2
-    },
-    {
-      "email": "mario@rossi.com",
-      "password": "$2a$10$RsIosJKYgHyT8uo.bosI5uYpN0PVmA6xdnhjT4jIFcbKbVS2RsiRC",
-      "name": "Mario Rossi",
-      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABWXtX1XFsyIPzMvXcMeuiB590R9LklH9LARfPd0Cn_IqgLHaVaugEd69jqZ10F2YQJJlnfGhN1oe5GpH5Ayv1p3Rf_0rxQ_8GA.png?r=8ab",
-      "id": 3
-    },
-    {
       "email": "mdicandia89@gmail.com",
-      "password": "$2a$10$h08oXIK/NRGQ8Dm48Q0sUO.TJt7nSBmZTIsTtm0s2uzugDJmh71MO",
+      "password": "$2a$10$GFZysiwHL3ecp.Sj56b3/uIhmN/z8KYE2GNH2jO4WPOe8LZt6iZXm",
       "name": "marco ",
-      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABXa0Rqd2b1POYDjzlprt5HdbfLsA9a_OYv1co1qdvzHt8L-pSjUC41if9YQyTrqWFbZrPYmNAHisOicP-kEhEImw-VXmcdedSA.png?r=880",
-      "id": 4
+      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABc5ZCVC61SRddXqJRnJ9CeeAwpPkZPTJ0uFL_VlDuek0_DbliUntaeQJnf7Z8xscOp_vsZBsy_7_meuinpMmGfa2g4KOe11swg.png?r=2d1",
+      "id": 1
     },
     {
       "email": "pizza@gmail.com",
-      "password": "$2a$10$v87ZiLN.xilAQ2DZbUKv7OW1dIXeBtrcyNNbb5MBxUIXdUDqILGO6",
+      "password": "$2a$10$135.CLWZaKgj/NEYcKy1guZtEW5XDgPeNegPGSSafM7UFNesXokwG",
       "name": "pizza",
-      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABWLaJuk3OZ3rF9xN_2BUljMdFJSg_OKfpKOHAiVGh5Atu9JKFG6UF_18gOQ3XO3I3pu4NuhOWYJyD6hmYBnTjMhDdvVSt708LQ.png?r=72f",
-      "id": 5
-    },
-    {
-      "email": "tokyo@gmail.com",
-      "password": "$2a$10$8CafkJA7qdRXrZFPNF.Yl.WCNrE8TnLbIs0za2/H./4hgodaptNyy",
-      "name": "tokyo",
-      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABRIVtxA1PJtPvz-iRoR9T2FsPAxEux_f0k06Ko8_OuUylpVzicoCS8BX5Dk4pip3rgXOUozZVSVP25SRHdc7CoJCIuNGjerXpw.png?r=28c",
-      "id": 6
+      "imageUrl": "https://occ-0-3716-784.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABfpfa_v09TljEAhvITb4dknZUWiMILvcj-uUAKYS8ekabLBfUv5Z4alyQ_2hfhsub3PH5V-NcxvON28SJuttQ3ql7QVtf4GC-g.png?r=4f2",
+      "id": 2
     }
   ],
   "favorites": [
+    {
+      "id": 567189,
+      "userId": 5,
+      "movieId": 567189,
+      "poster_path": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
+      "title": "Senza rimorso"
+    },
+    {
+      "id": 578701,
+      "userId": 5,
+      "movieId": 578701,
+      "poster_path": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
+      "title": "Quelli che mi vogliono morto"
+    },
+    {
+      "id": 586047,
+      "userId": 5,
+      "movieId": 586047,
+      "poster_path": "/xdrFKWpUx2JjK7BeUJGA5iaI5rA.jpg",
+      "title": "서복"
+    },
+    {
+      "id": 726684,
+      "userId": 5,
+      "movieId": 726684,
+      "poster_path": "/tf9nWFyJ745mBFkXZtPWabDYBR3.jpg",
+      "title": "Miraculous World : Shanghai, la légende de Ladydragon"
+    },
+    {
+      "id": 527774,
+      "userId": 5,
+      "movieId": 527774,
+      "poster_path": "/zDgV6rPCqAUDOtfKvvxExOiR2om.jpg",
+      "title": "Raya e l'ultimo drago"
+    },
+    {
+      "id": 811367,
+      "userId": 5,
+      "movieId": 811367,
+      "poster_path": "/A5aMLpqnvF3IfJ9RRnLwntIMtrm.jpg",
+      "title": "22 contro la Terra"
+    },
+    {
+      "id": 823855,
+      "userId": 5,
+      "movieId": 823855,
+      "poster_path": "/m6bUeV4mczG3z2YXXr5XDKPsQzv.jpg",
+      "title": "I Am All Girls"
+    },
+    {
+      "id": 791373,
+      "userId": 5,
+      "movieId": 791373,
+      "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+      "title": "Zack Snyder's Justice League"
+    },
+    {
+      "id": 635302,
+      "userId": 5,
+      "movieId": 635302,
+      "poster_path": "/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg",
+      "title": "Demon Slayer - The Movie: Mugen Train"
+    },
     {
       "id": 717192,
       "userId": 5,
@@ -52,22 +94,8 @@
       "title": "The Virtuoso"
     },
     {
-      "id": 804435,
-      "userId": 4,
-      "movieId": 804435,
-      "poster_path": "/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg",
-      "title": "Vanquish"
-    },
-    {
-      "id": 567189,
-      "userId": 4,
-      "movieId": 567189,
-      "poster_path": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
-      "title": "Senza rimorso"
-    },
-    {
       "id": 573680,
-      "userId": 4,
+      "userId": 5,
       "movieId": 573680,
       "poster_path": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
       "title": "The Banishing"
@@ -80,81 +108,277 @@
       "title": "Il sacro male"
     },
     {
-      "id": 791373,
-      "userId": 5,
-      "movieId": 791373,
-      "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
-      "title": "Zack Snyder's Justice League"
-    },
-    {
-      "id": 578701,
-      "userId": 6,
-      "movieId": 578701,
-      "poster_path": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
-      "title": "Quelli che mi vogliono morto"
+      "id": 804435,
+      "userId": 4,
+      "movieId": 804435,
+      "poster_path": "/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg",
+      "title": "Vanquish"
     },
     {
       "id": 399566,
-      "userId": 6,
+      "userId": 4,
       "movieId": 399566,
       "poster_path": "/6Xq0gAxrm8KMAKWP4KYYhPWoQXM.jpg",
       "title": "Godzilla vs. Kong"
     },
     {
-      "id": 460465,
-      "userId": 6,
-      "movieId": 460465,
-      "poster_path": "/iW03OMEI3htIAV1P8FwM867PLIj.jpg",
-      "title": "Mortal Kombat"
-    },
-    {
       "id": 615457,
-      "userId": 6,
+      "userId": 4,
       "movieId": 615457,
       "poster_path": "/iECT5xNf72P7cx9LDMrEwhGYD5O.jpg",
       "title": "Io sono Nessuno"
     },
     {
-      "id": 635302,
-      "userId": 6,
-      "movieId": 635302,
-      "poster_path": "/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg",
-      "title": "Demon Slayer - The Movie: Mugen Train"
-    },
-    {
-      "id": 586047,
-      "userId": 6,
-      "movieId": 586047,
-      "poster_path": "/xdrFKWpUx2JjK7BeUJGA5iaI5rA.jpg",
-      "title": "서복"
-    },
-    {
       "id": 813258,
-      "userId": 6,
+      "userId": 4,
       "movieId": 813258,
       "poster_path": "/dkokENeY5Ka30BFgWAqk14mbnGs.jpg",
       "title": "Cuccioli mostruosi - Un corto di Hotel Transylvania"
     },
     {
-      "id": 726684,
-      "userId": 6,
+      "id": 460465,
+      "userId": 1,
+      "movieId": 460465,
+      "poster_path": "/iW03OMEI3htIAV1P8FwM867PLIj.jpg",
+      "title": "Mortal Kombat"
+    },
+    {
+      "userId": 1,
+      "movieId": 567189,
+      "poster_path": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
+      "title": "Senza rimorso",
+      "id": 823856
+    },
+    {
+      "userId": 1,
+      "movieId": 578701,
+      "poster_path": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
+      "title": "Quelli che mi vogliono morto",
+      "id": 823857
+    },
+    {
+      "userId": 1,
+      "movieId": 632357,
+      "poster_path": "/dxBTcvdH9d6apXZGnThPIVEJ376.jpg",
+      "title": "Il sacro male",
+      "id": 823858
+    },
+    {
+      "userId": 1,
+      "movieId": 804435,
+      "poster_path": "/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg",
+      "title": "Vanquish",
+      "id": 823859
+    },
+    {
+      "userId": 1,
+      "movieId": 399566,
+      "poster_path": "/6Xq0gAxrm8KMAKWP4KYYhPWoQXM.jpg",
+      "title": "Godzilla vs. Kong",
+      "id": 823860
+    },
+    {
+      "userId": 1,
+      "movieId": 791373,
+      "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+      "title": "Zack Snyder's Justice League",
+      "id": 823861
+    },
+    {
+      "userId": 1,
+      "movieId": 635302,
+      "poster_path": "/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg",
+      "title": "Demon Slayer - The Movie: Mugen Train",
+      "id": 823862
+    },
+    {
+      "userId": 1,
+      "movieId": 717192,
+      "poster_path": "/w6n1pu9thpCVHILejsuhKf3tNCV.jpg",
+      "title": "Ferry",
+      "id": 823863
+    },
+    {
+      "userId": 1,
+      "movieId": 808023,
+      "poster_path": "/vXHzO26mJaOt4VO7ZFiM6No5ScT.jpg",
+      "title": "The Virtuoso",
+      "id": 823864
+    },
+    {
+      "userId": 1,
+      "movieId": 573680,
+      "poster_path": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
+      "title": "The Banishing",
+      "id": 823865
+    },
+    {
+      "userId": 1,
+      "movieId": 615457,
+      "poster_path": "/iECT5xNf72P7cx9LDMrEwhGYD5O.jpg",
+      "title": "Io sono Nessuno",
+      "id": 823866
+    },
+    {
+      "userId": 1,
+      "movieId": 586047,
+      "poster_path": "/xdrFKWpUx2JjK7BeUJGA5iaI5rA.jpg",
+      "title": "서복",
+      "id": 823867
+    },
+    {
+      "userId": 1,
+      "movieId": 813258,
+      "poster_path": "/dkokENeY5Ka30BFgWAqk14mbnGs.jpg",
+      "title": "Cuccioli mostruosi - Un corto di Hotel Transylvania",
+      "id": 823868
+    },
+    {
+      "userId": 1,
       "movieId": 726684,
       "poster_path": "/tf9nWFyJ745mBFkXZtPWabDYBR3.jpg",
-      "title": "Miraculous World : Shanghai, la légende de Ladydragon"
+      "title": "Miraculous World : Shanghai, la légende de Ladydragon",
+      "id": 823869
     },
     {
-      "id": 527774,
-      "userId": 6,
+      "userId": 1,
       "movieId": 527774,
       "poster_path": "/zDgV6rPCqAUDOtfKvvxExOiR2om.jpg",
-      "title": "Raya e l'ultimo drago"
+      "title": "Raya e l'ultimo drago",
+      "id": 823870
     },
     {
-      "id": 811367,
-      "userId": 6,
+      "userId": 1,
       "movieId": 811367,
       "poster_path": "/A5aMLpqnvF3IfJ9RRnLwntIMtrm.jpg",
-      "title": "22 contro la Terra"
+      "title": "22 contro la Terra",
+      "id": 823871
+    },
+    {
+      "userId": 1,
+      "movieId": 823855,
+      "poster_path": "/m6bUeV4mczG3z2YXXr5XDKPsQzv.jpg",
+      "title": "I Am All Girls",
+      "id": 823872
+    },
+    {
+      "userId": 2,
+      "movieId": 632357,
+      "poster_path": "/dxBTcvdH9d6apXZGnThPIVEJ376.jpg",
+      "title": "Il sacro male",
+      "id": 823873
+    },
+    {
+      "userId": 2,
+      "movieId": 578701,
+      "poster_path": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
+      "title": "Quelli che mi vogliono morto",
+      "id": 823874
+    },
+    {
+      "userId": 2,
+      "movieId": 567189,
+      "poster_path": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
+      "title": "Senza rimorso",
+      "id": 823875
+    },
+    {
+      "userId": 2,
+      "movieId": 460465,
+      "poster_path": "/iW03OMEI3htIAV1P8FwM867PLIj.jpg",
+      "title": "Mortal Kombat",
+      "id": 823876
+    },
+    {
+      "userId": 2,
+      "movieId": 804435,
+      "poster_path": "/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg",
+      "title": "Vanquish",
+      "id": 823877
+    },
+    {
+      "userId": 2,
+      "movieId": 399566,
+      "poster_path": "/6Xq0gAxrm8KMAKWP4KYYhPWoQXM.jpg",
+      "title": "Godzilla vs. Kong",
+      "id": 823878
+    },
+    {
+      "userId": 2,
+      "movieId": 791373,
+      "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+      "title": "Zack Snyder's Justice League",
+      "id": 823879
+    },
+    {
+      "userId": 2,
+      "movieId": 635302,
+      "poster_path": "/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg",
+      "title": "Demon Slayer - The Movie: Mugen Train",
+      "id": 823880
+    },
+    {
+      "userId": 2,
+      "movieId": 717192,
+      "poster_path": "/w6n1pu9thpCVHILejsuhKf3tNCV.jpg",
+      "title": "Ferry",
+      "id": 823881
+    },
+    {
+      "userId": 2,
+      "movieId": 808023,
+      "poster_path": "/vXHzO26mJaOt4VO7ZFiM6No5ScT.jpg",
+      "title": "The Virtuoso",
+      "id": 823882
+    },
+    {
+      "userId": 2,
+      "movieId": 573680,
+      "poster_path": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
+      "title": "The Banishing",
+      "id": 823883
+    },
+    {
+      "userId": 2,
+      "movieId": 615457,
+      "poster_path": "/iECT5xNf72P7cx9LDMrEwhGYD5O.jpg",
+      "title": "Io sono Nessuno",
+      "id": 823884
+    },
+    {
+      "userId": 2,
+      "movieId": 586047,
+      "poster_path": "/xdrFKWpUx2JjK7BeUJGA5iaI5rA.jpg",
+      "title": "서복",
+      "id": 823885
+    },
+    {
+      "userId": 2,
+      "movieId": 813258,
+      "poster_path": "/dkokENeY5Ka30BFgWAqk14mbnGs.jpg",
+      "title": "Cuccioli mostruosi - Un corto di Hotel Transylvania",
+      "id": 823886
+    },
+    {
+      "userId": 2,
+      "movieId": 726684,
+      "poster_path": "/tf9nWFyJ745mBFkXZtPWabDYBR3.jpg",
+      "title": "Miraculous World : Shanghai, la légende de Ladydragon",
+      "id": 823887
+    },
+    {
+      "userId": 2,
+      "movieId": 527774,
+      "poster_path": "/zDgV6rPCqAUDOtfKvvxExOiR2om.jpg",
+      "title": "Raya e l'ultimo drago",
+      "id": 823888
+    },
+    {
+      "userId": 2,
+      "movieId": 811367,
+      "poster_path": "/A5aMLpqnvF3IfJ9RRnLwntIMtrm.jpg",
+      "title": "22 contro la Terra",
+      "id": 823889
     }
   ],
   "genres": [

@@ -1,5 +1,5 @@
 export interface FavoriteInterface {
-    id: number;
+    id?: number;
     userId: number;
     movieId: number;
     poster_path: string;

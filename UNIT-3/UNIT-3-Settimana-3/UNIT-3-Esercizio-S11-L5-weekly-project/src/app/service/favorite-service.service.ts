@@ -16,7 +16,7 @@ export class FavoriteServiceService {
   // Aggiunge un film ai preferiti per un utente specifico
   addFavorite(userId: number, movieId: number, movie: moviePopular): Observable<FavoriteInterface> {
     const newFavorite: FavoriteInterface = {
-      id: movie.id,
+      // id: movie.id,
       userId: userId,
       movieId: movieId,
       poster_path: movie.poster_path,
