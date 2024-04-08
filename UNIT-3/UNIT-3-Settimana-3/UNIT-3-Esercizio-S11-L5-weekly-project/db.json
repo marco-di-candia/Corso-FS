@@ -17,125 +17,6 @@
   ],
   "favorites": [
     {
-      "id": 567189,
-      "userId": 5,
-      "movieId": 567189,
-      "poster_path": "/zisnDuZBQWzio4ylon8AElnat7V.jpg",
-      "title": "Senza rimorso"
-    },
-    {
-      "id": 578701,
-      "userId": 5,
-      "movieId": 578701,
-      "poster_path": "/qDGaNdeIwgHHXKYypo19oupxnrK.jpg",
-      "title": "Quelli che mi vogliono morto"
-    },
-    {
-      "id": 586047,
-      "userId": 5,
-      "movieId": 586047,
-      "poster_path": "/xdrFKWpUx2JjK7BeUJGA5iaI5rA.jpg",
-      "title": "서복"
-    },
-    {
-      "id": 726684,
-      "userId": 5,
-      "movieId": 726684,
-      "poster_path": "/tf9nWFyJ745mBFkXZtPWabDYBR3.jpg",
-      "title": "Miraculous World : Shanghai, la légende de Ladydragon"
-    },
-    {
-      "id": 527774,
-      "userId": 5,
-      "movieId": 527774,
-      "poster_path": "/zDgV6rPCqAUDOtfKvvxExOiR2om.jpg",
-      "title": "Raya e l'ultimo drago"
-    },
-    {
-      "id": 811367,
-      "userId": 5,
-      "movieId": 811367,
-      "poster_path": "/A5aMLpqnvF3IfJ9RRnLwntIMtrm.jpg",
-      "title": "22 contro la Terra"
-    },
-    {
-      "id": 823855,
-      "userId": 5,
-      "movieId": 823855,
-      "poster_path": "/m6bUeV4mczG3z2YXXr5XDKPsQzv.jpg",
-      "title": "I Am All Girls"
-    },
-    {
-      "id": 791373,
-      "userId": 5,
-      "movieId": 791373,
-      "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
-      "title": "Zack Snyder's Justice League"
-    },
-    {
-      "id": 635302,
-      "userId": 5,
-      "movieId": 635302,
-      "poster_path": "/m9cn5mhW519QKr1YGpGxNWi98VJ.jpg",
-      "title": "Demon Slayer - The Movie: Mugen Train"
-    },
-    {
-      "id": 717192,
-      "userId": 5,
-      "movieId": 717192,
-      "poster_path": "/w6n1pu9thpCVHILejsuhKf3tNCV.jpg",
-      "title": "Ferry"
-    },
-    {
-      "id": 808023,
-      "userId": 5,
-      "movieId": 808023,
-      "poster_path": "/vXHzO26mJaOt4VO7ZFiM6No5ScT.jpg",
-      "title": "The Virtuoso"
-    },
-    {
-      "id": 573680,
-      "userId": 5,
-      "movieId": 573680,
-      "poster_path": "/xD9mc8JCVXA8T8u4Od7qOUBuGH4.jpg",
-      "title": "The Banishing"
-    },
-    {
-      "id": 632357,
-      "userId": 4,
-      "movieId": 632357,
-      "poster_path": "/dxBTcvdH9d6apXZGnThPIVEJ376.jpg",
-      "title": "Il sacro male"
-    },
-    {
-      "id": 804435,
-      "userId": 4,
-      "movieId": 804435,
-      "poster_path": "/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg",
-      "title": "Vanquish"
-    },
-    {
-      "id": 399566,
-      "userId": 4,
-      "movieId": 399566,
-      "poster_path": "/6Xq0gAxrm8KMAKWP4KYYhPWoQXM.jpg",
-      "title": "Godzilla vs. Kong"
-    },
-    {
-      "id": 615457,
-      "userId": 4,
-      "movieId": 615457,
-      "poster_path": "/iECT5xNf72P7cx9LDMrEwhGYD5O.jpg",
-      "title": "Io sono Nessuno"
-    },
-    {
-      "id": 813258,
-      "userId": 4,
-      "movieId": 813258,
-      "poster_path": "/dkokENeY5Ka30BFgWAqk14mbnGs.jpg",
-      "title": "Cuccioli mostruosi - Un corto di Hotel Transylvania"
-    },
-    {
       "id": 460465,
       "userId": 1,
       "movieId": 460465,
@@ -284,13 +165,6 @@
     },
     {
       "userId": 2,
-      "movieId": 460465,
-      "poster_path": "/iW03OMEI3htIAV1P8FwM867PLIj.jpg",
-      "title": "Mortal Kombat",
-      "id": 823876
-    },
-    {
-      "userId": 2,
       "movieId": 804435,
       "poster_path": "/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg",
       "title": "Vanquish",
@@ -358,27 +232,6 @@
       "poster_path": "/dkokENeY5Ka30BFgWAqk14mbnGs.jpg",
       "title": "Cuccioli mostruosi - Un corto di Hotel Transylvania",
       "id": 823886
-    },
-    {
-      "userId": 2,
-      "movieId": 726684,
-      "poster_path": "/tf9nWFyJ745mBFkXZtPWabDYBR3.jpg",
-      "title": "Miraculous World : Shanghai, la légende de Ladydragon",
-      "id": 823887
-    },
-    {
-      "userId": 2,
-      "movieId": 527774,
-      "poster_path": "/zDgV6rPCqAUDOtfKvvxExOiR2om.jpg",
-      "title": "Raya e l'ultimo drago",
-      "id": 823888
-    },
-    {
-      "userId": 2,
-      "movieId": 811367,
-      "poster_path": "/A5aMLpqnvF3IfJ9RRnLwntIMtrm.jpg",
-      "title": "22 contro la Terra",
-      "id": 823889
     }
   ],
   "genres": [
